@@ -36,7 +36,7 @@ import YouTube from '../Images/Applications/youtube.png';
 const Home = () => {
   useEffect(() => {
     document.title = "Moja Amerika Podcast - Život u Americi iz ugla Balkanske dijaspore";
-    AOS.init({ duration: 400 });
+    AOS.init({ duration: 1000 });
   })
   return (
     <>
