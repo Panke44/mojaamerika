@@ -65,10 +65,14 @@
 }
 @media screen and (max-width: 767px) {
 	.wrapper {
-		flex-direction: column;
+		flex-direction:unset;
 		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
 	}
 	.review-card {
 		width: 85%;
 	}
 }
+
+

@@ -23,7 +23,7 @@
         }
 
         img {
-            margin-top: 20px;
+            margin-bottom: 20px;
             width: 170px;
             filter: grayscale(100%);
             transition: 0.3s ease;
@@ -132,7 +132,8 @@
         display: block;
 
         .row {
-            padding: 10px 0px 0px 0px;
+            // padding: 10px 0px 0px 0px;
+            padding: 20px 0px;
             height: auto;
 
             .footer-item {
@@ -142,11 +143,17 @@
                 height: auto;
 
                 &:nth-child(1) {
-                    height: 130px;
-                    padding: 0px 0px 0px 20px;
+                    // height: 150px;
+                    padding-bottom: 10px;
 
                     img{
+                        width: 200px;
                         margin: 0px 20px 0px 0px;
+                        display: block;
+
+                        &:nth-child(1){
+                            margin-top: 20px;
+                        }
                     }
                 }
             }
