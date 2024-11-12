@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='container-fluid footer'>
       <div className="row">
         <div className="footer-item col-xl-3 col-lg-4 col-md-4">
-          <h3> Grupa </h3>
+          <h3> Projekti </h3>
           <img src={logo} alt="Moja Amerika Podcast logo" />
           <a href="https://watiskustva.com/" target="_blank" class="wat-iskustva-img" rel="noreferrer">
             <img src={WATiskustva} alt="WAT Iskustva logo" />

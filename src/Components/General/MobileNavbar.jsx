@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../Images/logo.png'
+import OrangeBtn from './OrangeBtn'
 
 const MobileNavbar = () => {
     return (
@@ -17,9 +18,11 @@ const MobileNavbar = () => {
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li> <Link to="/" className='nav-link' aria-current="page">  Home </Link> </li>
-                            <li> <Link to="/services" className='nav-link' aria-current="page">  Services </Link> </li>
-                            <li> <Link to="/contact" className='nav-link' aria-current="page">  Contact </Link> </li>
+                            <li> <Link to="/" className='nav-link' aria-current="page">  Podkast </Link> </li>
+                            <li> <Link to="/epizode" className='nav-link' aria-current="page">  Epizode </Link> </li>
+                            <Link className='nav-link' aria-current="page">  
+                                <OrangeBtn btnText="WAT Iskustva"></OrangeBtn>
+                            </Link>
 
                         </ul>
                     </div>
