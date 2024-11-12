@@ -156,7 +156,7 @@ const Episodes = () => {
       <div className="blue-section">
         <Title title="Slušaj podkast" />
 
-        <div class="wrapper">
+        <div class="wrapper-applications">
           <Link to="https://www.youtube.com/@mojaamerika" target='_blank' rel="noreferrer">
             <PodcastApp appimg={YouTube} appname="YouTube" appalt="YouTube logo"/>
           </Link>

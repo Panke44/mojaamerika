@@ -63,6 +63,11 @@
     .episode-card{
         width: 100%;
 
+        &:hover{
+            transform:none;
+            box-shadow: none;
+        }
+
         h4{
             font-size: 16px;
         }

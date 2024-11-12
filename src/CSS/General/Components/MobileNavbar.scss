@@ -8,6 +8,33 @@
     }
 }
 
+.offcanvas-header{
+    width: 100%;
+    justify-content: end;
+    padding: 40px;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+
+    li{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    
+    a{
+        display: block;
+        margin: auto;
+        width: 100%;
+
+        button{
+            width: auto;
+        }
+    }
+}
+
 #offcanvasDarkNavbar{
     width: 100%;
 }
