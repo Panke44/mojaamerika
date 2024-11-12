@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e8eba95.css",
-    "main.js": "/static/js/main.9c6e6731.js",
-    "static/media/author.png": "/static/media/author.92e187b40931af9ac3fe.png",
-    "static/media/flag.png": "/static/media/flag.7eb8dcef3c02bcb54370.png",
-    "static/media/card_milica.png": "/static/media/card_milica.1c7e3876c1cdc3c2b8e0.png",
-    "static/media/card_dobrota.png": "/static/media/card_dobrota.40cf6db39a042ab7c74b.png",
-    "static/media/card_nemanja.png": "/static/media/card_nemanja.d8833a838a0cf48923ac.png",
-    "static/media/card_stojan.jpg": "/static/media/card_stojan.1634cb42803d4e76e6c9.jpg",
-    "static/media/card_charles.jpg": "/static/media/card_charles.9d79ad7e2cea55d63e48.jpg",
-    "static/media/card_ivan.webp": "/static/media/card_ivan.282d96e0a1b9db0aab8a.webp",
-    "static/media/spotify.png": "/static/media/spotify.7de4e783e9c1740ca1fa.png",
-    "static/media/watiskustva_logo.png": "/static/media/watiskustva_logo.4a10a67b2d5f70c1034e.png",
-    "static/media/logo.png": "/static/media/logo.90f51db84cb6ab7f83c5.png",
-    "static/media/itunes.png": "/static/media/itunes.d9f50087aecfc964028e.png",
-    "index.html": "/index.html",
-    "main.8e8eba95.css.map": "/static/css/main.8e8eba95.css.map",
-    "main.9c6e6731.js.map": "/static/js/main.9c6e6731.js.map"
+    "main.css": "./static/css/main.ab91e18f.css",
+    "main.js": "./static/js/main.82df463b.js",
+    "static/media/author.png": "./static/media/author.92e187b40931af9ac3fe.png",
+    "static/media/flag.png": "./static/media/flag.7eb8dcef3c02bcb54370.png",
+    "static/media/card_milica.png": "./static/media/card_milica.1c7e3876c1cdc3c2b8e0.png",
+    "static/media/card_dobrota.png": "./static/media/card_dobrota.40cf6db39a042ab7c74b.png",
+    "static/media/card_nemanja.png": "./static/media/card_nemanja.d8833a838a0cf48923ac.png",
+    "static/media/card_stojan.jpg": "./static/media/card_stojan.1634cb42803d4e76e6c9.jpg",
+    "static/media/card_charles.jpg": "./static/media/card_charles.9d79ad7e2cea55d63e48.jpg",
+    "static/media/card_ivan.webp": "./static/media/card_ivan.282d96e0a1b9db0aab8a.webp",
+    "static/media/spotify.png": "./static/media/spotify.7de4e783e9c1740ca1fa.png",
+    "static/media/watiskustva_logo.png": "./static/media/watiskustva_logo.4a10a67b2d5f70c1034e.png",
+    "static/media/logo.png": "./static/media/logo.90f51db84cb6ab7f83c5.png",
+    "static/media/itunes.png": "./static/media/itunes.d9f50087aecfc964028e.png",
+    "index.html": "./index.html",
+    "main.ab91e18f.css.map": "./static/css/main.ab91e18f.css.map",
+    "main.82df463b.js.map": "./static/js/main.82df463b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e8eba95.css",
-    "static/js/main.9c6e6731.js"
+    "static/css/main.ab91e18f.css",
+    "static/js/main.82df463b.js"
   ]
 }
