@@ -69,27 +69,27 @@ const Home = () => {
           <CardHolder>
 
             <Link to="https://www.youtube.com/watch?v=jGxBAtzFhEA&t=4527s" target="_blank" rel="noreferrer">
-              <img src={Charles} className='episode-card' data-aos="fade-up"></img>
+              <img src={Charles} className='episode-card' alt='Charles Cather podkast epizoda'  data-aos="fade-up"></img>
             </Link>
 
             <Link to="https://www.youtube.com/watch?v=VZf4ulGoHAw" target="_blank" rel="noreferrer">
-              <img src={Dobrota} className='episode-card' data-aos="fade-up"></img>
+              <img src={Dobrota} className='episode-card' alt='Milos Dobrota podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
             <Link to="https://www.youtube.com/watch?v=JUXOlOXg-YI" target="_blank" rel="noreferrer">
-              <img src={Stojan} className='episode-card' data-aos="fade-up"></img>
+              <img src={Stojan} className='episode-card' alt='Stojan Vukovic podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
             <Link to="https://www.youtube.com/watch?v=6HlapmPX9m4" target="_blank" rel="noreferrer">
-              <img src={Nemanja} className='episode-card' data-aos="fade-up"></img>
+              <img src={Nemanja} className='episode-card' alt='Nemanja Antic podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
             <Link to="https://www.youtube.com/watch?v=7FMTIjR17m8" target="_blank" rel="noreferrer">
-              <img src={Ivan} className='episode-card' data-aos="fade-up"></img>
+              <img src={Ivan} className='episode-card' alt='Ivan Radojevic podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
             <Link to="https://www.youtube.com/watch?v=JL1KpDiG8yk&t=1085s" target="_blank" rel="noreferrer">
-              <img src={Milica} className='episode-card' data-aos="fade-up"></img>
+              <img src={Milica} className='episode-card' alt='Milica Dangubic podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
           </CardHolder>
@@ -140,9 +140,9 @@ const Home = () => {
       <div className="blue-section">
         <div class="wrapper">
           <Title title="Rekli su o podkastu" />
-          <Testimonial name="Charles Cather" review="aaa" img={Charles}></Testimonial>
-          <Testimonial name="Charles Cather" review="aaa" img={Charles}></Testimonial>
-          <Testimonial name="Charles Cather" review="aaa" img={Charles}></Testimonial>
+          <Testimonial name="Charles Cather" review="aaa" img={Charles} alt="Charles Cather" ></Testimonial>
+          <Testimonial name="Charles Cather" review="aaa" img={Charles} alt="Charles Cather"></Testimonial>
+          <Testimonial name="Charles Cather" review="aaa" img={Charles} alt="Charles Cather"></Testimonial>
         </div>
       </div >
 

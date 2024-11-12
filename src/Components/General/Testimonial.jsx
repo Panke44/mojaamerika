@@ -5,7 +5,7 @@ const Testimonial = (props) => {
         <div class="review-card">
             <div class="header-content">
                 <div class="img-area">
-                    <img alt="customer1" src={props.img} />
+                    <img alt={props.alt} src={props.img} />
                 </div>
                 <div class="info">
                     <h4>{props.name}</h4>
