@@ -1,0 +1,39 @@
+.podcast-app-card {
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	width: 220px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+
+    &:hover{
+        transform: translateY(-10px);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+}
+
+.podcast-app-img-area {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 25px;
+
+    img{
+        width: 100%;
+    }
+}
+
+.podcast-app-header-content {
+	display: flex;
+	align-items: center;
+}
+
+.podcast-app-info{
+	h4{
+		color: black;
+		font-size: 22px;
+		font-weight: 600;
+		margin: 0px;
+	}
+}

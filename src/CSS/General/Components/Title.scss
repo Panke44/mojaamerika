@@ -1,0 +1,49 @@
+@import '../../mixins_colors.scss';
+
+.title{
+    background-color: $black;
+    height: 100px;
+    width: 100%;
+    color: white;
+    @include flex(center, center);
+
+    h2{
+        width: 70%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1076px) {
+    .home_about__header{
+        background-color: $black;
+    
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .home_about__header{
+        height: auto;
+        h2{
+            width: 100%;
+            font-size: 22px;
+            padding: 15px 20px;
+        }
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:767px){
+    .home_about__header{
+        height: auto;
+        display: block;
+        padding: 20px;
+        
+        h2{
+            width: 90%;
+            margin: auto;
+        }
+    }
+}

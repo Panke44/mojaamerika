@@ -1,0 +1,32 @@
+// $black: #21649e;
+$black: #016ACE;
+
+$orange: #FD7D23;
+$gray: #D3D3D3;
+$blue: #4AAFF6;
+$white: #FFFFFF;
+$lightgray: #F9F9F9;
+$green: #4DD080;
+$yellow: #FFBA01;
+
+@mixin flex ($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin btn($color, $bg, $padding) {
+    color: $color;
+    background-color: $bg;
+    padding: $padding;
+}
+
+@mixin shadow {
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.1);
+}
+
+@mixin relative ($position) {
+    position: relative;
+    top: $position;
+    margin-bottom: $position;
+}

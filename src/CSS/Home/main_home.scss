@@ -1,0 +1,431 @@
+@import '../mixins_colors.scss';
+
+.hero_container {
+    width: 100%;
+    height: 550px;
+    background-color: $black;
+    background-image: url("../../Images/flag.png");
+    background-size: cover;
+    @include flex(center, center);
+
+    div {
+        width: 30%;
+    }
+}
+
+.hero_text {
+    color: white;
+
+    h2 {
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+
+    .hero-button {
+        margin-top: 20px;
+        width: 150px;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}
+
+.home_episodes_wrapper {
+    height: auto;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+
+    .container {
+        margin: 20px auto;
+        width: 400px;
+        text-align: center;
+
+        h2 {
+            font-weight: 700;
+            margin: 20px 0px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.card-holder_wrapper {
+    margin: auto;
+    width: 70%;
+    display: block;
+    padding: 0px 20px;
+}
+
+.card_holder {
+    margin: auto;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+}
+
+.episode-card {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.1);
+    // background-image: url("../../Images/home/dobrota.png");
+    background-size: contain;
+}
+
+.home_about__content {
+    width: 100%;
+    height: 600px;
+    @include flex(flex-start, center);
+
+    div {
+        margin: 50px 50px 50px 0px;
+    }
+
+    .about__content {
+        width: 500px;
+        height: 500px;
+
+        h2 {
+            margin: 40px auto 0;
+        }
+
+        p {
+            margin: 20px 0px;
+            text-align: justify;
+        }
+    }
+
+    .author {
+        width: 400px;
+        border-radius: 10px;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+}
+
+.blue-section {
+    background-color: $black;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+
+    .hero_container {
+        div {
+            width: 45%;
+        }
+
+        .hero_img {
+            img {
+                width: 350px;
+            }
+        }
+    }
+
+    .home_services_wrapper {
+        top: -100px;
+        height: 1600px;
+    }
+
+    .card-holder_wrapper {
+        width: 100%;
+    }
+
+    .home_about__content {
+        height: 500px;
+
+        div {
+            margin: 50px 30px;
+        }
+
+        .about__content {
+            height: 320px;
+
+            .about-button {
+                margin: 0px;
+            }
+        }
+
+        .author {
+            width: 400px;
+        }
+    }
+
+    .card-holder_wrapper {
+        height: auto;
+
+        .card_holder {
+            height: auto;
+
+            .image-card {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1077px) and (max-width:1200px) {}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+    .hero_container {
+        display: block;
+        height: 100%;
+
+        .hero_text {
+            padding-top: 20px;
+            width: 100%;
+
+            h2 {
+                text-align: center;
+            }
+
+            p {
+                text-align: justify;
+                padding: 0px 20px;
+            }
+
+            .hero-button {
+                margin: auto;
+            }
+        }
+    }
+
+    .home_services_wrapper {
+        position: static;
+        height: auto;
+        padding-bottom: 10px;
+
+        .container {
+            margin: 0px auto 20px;
+        }
+
+        .card-holder_wrapper {
+            width: 100%;
+            height: auto;
+
+            .card_holder {
+                height: auto;
+
+                .services-card {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h4 {
+                        font-size: 17px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .relative_div {
+        display: none;
+    }
+
+    .home_about__content {
+        display: block;
+        height: auto;
+        padding: 20px 0px;
+
+        .about__content {
+            width: 100%;
+            padding: 10px 20px;
+            margin: 0px;
+            height: auto;
+
+            h2 {
+                text-align: center;
+                margin: 20px auto 0;
+            }
+
+            .about-button {
+                margin: auto;
+
+                button {
+                    display: block;
+                    margin: 0px auto;
+                }
+            }
+        }
+
+        .mechanic-img {
+            width: 90%;
+            margin: 0px auto;
+
+            img {
+                border-radius: 0px;
+            }
+        }
+    }
+
+    .card-holder_wrapper {
+        width: 100%;
+        padding-bottom: 10px;
+        height: auto;
+
+        .card_holder {
+            height: auto;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+
+@media screen and (min-width:320px) and (max-width:375px) {
+
+    .home_episodes_wrapper {
+
+        .container {
+            width: 100%;
+        }
+
+        .card-holder_wrapper {
+            padding: 0px;
+            height: auto;
+
+            .card_holder {
+                height: auto;
+
+                .services-card {
+                    margin: 10px auto;
+                    width: 80%;
+                    height: 220px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:376px) and (max-width:414px) {
+
+    .home_services_wrapper {
+        .container {
+            width: 100%;
+        }
+
+        .card-holder_wrapper {
+            padding: 0px;
+
+            .card_holder {
+                .services-card {
+                    width: 43%;
+                    height: 220px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:415px) and (max-width:425px) {
+    .home_services_wrapper {
+        .card-holder_wrapper {
+            padding: 0px;
+
+            .card_holder {
+                .services-card {
+                    margin: 10px;
+                    width: 180px;
+                    height: 220px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:550px) {
+
+    .hero_container {
+        display: block;
+        height: auto;
+        padding: 10px 20px 20px;
+
+        .hero-text {
+            width: 100%;
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+
+    .home_services_wrapper {
+
+        .container {
+            margin: 20px auto;
+            position: relative;
+            top: -70px;
+            margin-bottom: -75px;
+        }
+
+        .card-holder_wrapper {
+            margin: 20px auto;
+            padding: 0px;
+
+            .card_holder {
+                .services-card {
+                    width: 190px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:767px) {
+
+    .our-team {
+        .card-holder_wrapper {
+            padding: 0px;
+
+            .card_holder {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                grid-template-columns: auto auto auto;
+
+                .image-card {
+                    margin: 5px;
+                    width: 45%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:551px) and (max-width:767px) {
+    .home_episodes_wrapper {
+        .card-holder_wrapper {
+            .card_holder {
+                .services-card {
+                    width: 230px;
+                }
+            }
+        }
+    }
+}

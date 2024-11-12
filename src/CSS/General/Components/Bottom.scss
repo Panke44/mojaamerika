@@ -1,0 +1,61 @@
+@import '../../mixins_colors.scss';
+
+.bottom-container{
+    height: 40px;
+    background-color: $lightgray;
+    @include flex(center,space-evenly);
+}
+
+.bottom-navbar{
+    width: 450px;
+    @include flex(center, space-evenly);
+
+    a{
+        color: black;
+        transition: 0.3s ease;
+        
+        &:hover{
+            color: #9d9d9d;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .bottom-container{
+        display: block;
+        height: 60px;
+
+        div{
+            display: block;
+            text-align: center;
+            margin: 5px auto;
+
+            a{
+                margin: 0px 20px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:992px) {
+    .bottom-container{
+        height: auto;
+        display: block;
+
+        .bottom-navbar{
+            @include flex(center, center);
+            width: 100%;
+            padding: 5px 0px;
+            a{
+                margin: 0px 15px;
+            }
+        }
+
+        .bottom-copyright{
+            padding: 10px;
+            margin: 7px;
+            text-align: center;
+            font-size: 15px;
+        }
+    }   
+}

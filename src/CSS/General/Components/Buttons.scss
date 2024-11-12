@@ -1,0 +1,47 @@
+@import '../../mixins_colors.scss';
+
+button {
+    border-radius: 25px;
+    width: 200px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.orange_button {
+    @include btn($white, $orange, 10px 20px);
+    box-shadow: rgba(253, 125, 35, 0.5) 0px 2px 4px 0px, rgba(253, 125, 35, 0.5) 0px 2px 16px 0px;
+
+    &:hover {
+        // color: $orange;
+        // background-color: $white;
+        // box-shadow: rgba(253, 125, 35, 0.5) 0px 2px 4px 0px, rgba(253, 125, 35, 0.5) 0px 2px 16px 0px;
+    }
+}
+
+.white_button {
+    @include btn($black, $white, 5px);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(0, 0, 0, 0.32) 0px 2px 16px 0px;
+}
+
+.form-button{
+    margin: 10px auto;
+    height: 40px;
+    display: block;
+    background-color: $orange;
+    box-shadow: rgba(253, 125, 35, 0.5) 0px 2px 4px 0px, rgba(253, 125, 35, 0.5) 0px 2px 16px 0px;
+    color: white;
+    width: 150px;
+    border: none;
+    margin: 10px auto;
+    border-radius: 25px;
+    transition: 0.2s ease;
+    font-weight: 500;
+
+    &:hover {
+       color: $orange;
+       background-color: $white;
+       box-shadow: rgba(253, 125, 35, 0.5) 0px 2px 4px 0px, rgba(253, 125, 35, 0.5) 0px 2px 16px 0px;
+       
+   }
+}
