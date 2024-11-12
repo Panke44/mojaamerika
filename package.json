@@ -15,9 +15,6 @@
     "sass": "^1.80.6",
     "web-vitals": "^2.1.4"
   },
-  "engines": {
-  "node": ">=19.0.0 <23.0.0"
-},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

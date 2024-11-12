@@ -63,7 +63,7 @@ const Episodes = () => {
       <Navbar />
       <MobileNavbar />
 
-      <div class="wrapper">
+      <div class="wrapper-episodes">
         
         <Episode img={TeodoraMiljkovic} header="EP 29 | Na koje je sve načine Srbija povezana sa svetom | Teodora Miljković"
         link="https://www.youtube.com/watch?v=OcALydliEpo"/>

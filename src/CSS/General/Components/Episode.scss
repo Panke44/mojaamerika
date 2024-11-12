@@ -1,4 +1,10 @@
-
+.wrapper-episodes{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px 0px;
+}
 .episode-card {
 	background-color: white;
 	border-radius: 10px;
@@ -44,4 +50,27 @@
     align-items: center;
     margin: auto;
     width: 100%;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .wrapper-episodes{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .episode-card{
+        width: 100%;
+
+        h4{
+            font-size: 16px;
+        }
+    }
+
+    .center-button{
+        a{
+            font-size: 14px;
+        }
+    }
 }
