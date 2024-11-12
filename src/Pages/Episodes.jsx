@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { useEffect } from 'react';
 
 import Navbar from '../Components/General/Navbar';

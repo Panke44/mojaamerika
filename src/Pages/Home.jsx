@@ -68,27 +68,27 @@ const Home = () => {
 
           <CardHolder>
 
-            <Link to="https://www.youtube.com/watch?v=jGxBAtzFhEA&t=4527s" target="_blank">
+            <Link to="https://www.youtube.com/watch?v=jGxBAtzFhEA&t=4527s" target="_blank" rel="noreferrer">
               <img src={Charles} className='episode-card' data-aos="fade-up"></img>
             </Link>
 
-            <Link to="https://www.youtube.com/watch?v=VZf4ulGoHAw" target="_blank">
+            <Link to="https://www.youtube.com/watch?v=VZf4ulGoHAw" target="_blank" rel="noreferrer">
               <img src={Dobrota} className='episode-card' data-aos="fade-up"></img>
             </Link>
 
-            <Link to="https://www.youtube.com/watch?v=JUXOlOXg-YI" target="_blank">
+            <Link to="https://www.youtube.com/watch?v=JUXOlOXg-YI" target="_blank" rel="noreferrer">
               <img src={Stojan} className='episode-card' data-aos="fade-up"></img>
             </Link>
 
-            <Link to="https://www.youtube.com/watch?v=6HlapmPX9m4" target="_blank">
+            <Link to="https://www.youtube.com/watch?v=6HlapmPX9m4" target="_blank" rel="noreferrer">
               <img src={Nemanja} className='episode-card' data-aos="fade-up"></img>
             </Link>
 
-            <Link to="https://www.youtube.com/watch?v=7FMTIjR17m8" target="_blank">
+            <Link to="https://www.youtube.com/watch?v=7FMTIjR17m8" target="_blank" rel="noreferrer">
               <img src={Ivan} className='episode-card' data-aos="fade-up"></img>
             </Link>
 
-            <Link to="https://www.youtube.com/watch?v=JL1KpDiG8yk&t=1085s" target="_blank">
+            <Link to="https://www.youtube.com/watch?v=JL1KpDiG8yk&t=1085s" target="_blank" rel="noreferrer">
               <img src={Milica} className='episode-card' data-aos="fade-up"></img>
             </Link>
 
@@ -102,19 +102,19 @@ const Home = () => {
         <Title title="Slušaj podkast" />
 
         <div class="wrapper">
-          <Link to="https://www.youtube.com/@mojaamerika" target='_blank'>
+          <Link to="https://www.youtube.com/@mojaamerika" target='_blank' rel="noreferrer">
             <PodcastApp appimg={YouTube} appname="YouTube" appalt="YouTube logo"/>
           </Link>
 
-          <Link to="https://open.spotify.com/show/2EkisQ7V0Ra6EzQGUMv4Nf?si=cbb1d9d403bb4b0b" target='_blank'>
+          <Link to="https://open.spotify.com/show/2EkisQ7V0Ra6EzQGUMv4Nf?si=cbb1d9d403bb4b0b" target='_blank' rel="noreferrer">
             <PodcastApp appimg={Spotify} appname="Spotify" appalt="Spotify logo"/>
           </Link>
 
-          <Link to="https://podcasts.apple.com/us/podcast/moja-amerika-podcast/id1652243313" target='_blank'>
+          <Link to="https://podcasts.apple.com/us/podcast/moja-amerika-podcast/id1652243313" target='_blank' rel="noreferrer">
             <PodcastApp appimg={Apple} appname="iTunes" appalt="Apple Podcast logo"/>
           </Link>
 
-          <Link to="https://www.deezer.com/en/show/5321727" target='_blank'>
+          <Link to="https://www.deezer.com/en/show/5321727" target='_blank' rel="noreferrer">
             <PodcastApp appimg={Deezer} appname="Deezer" appalt="Deezer logo"/>
           </Link>
          
@@ -133,7 +133,7 @@ const Home = () => {
         </div>
 
         <div className="author" data-aos="fade-up" data-aos-delay="300">
-          <img src={Author} alt="Miloš Panić ispred Beverly Hills znaka" />
+          <img src={Author} alt="Milos Panic sedi ispred Beverly Hills znaka u Los Angelesu" />
         </div>
       </div>
 

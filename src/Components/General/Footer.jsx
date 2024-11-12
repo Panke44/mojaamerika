@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-item col-xl-3 col-lg-4 col-md-4">
           <h3> Grupa </h3>
           <img src={logo} alt="Moja Amerika Podcast logo" />
-          <a href="https://watiskustva.com/" target="_blank" class="wat-iskustva-img">
+          <a href="https://watiskustva.com/" target="_blank" class="wat-iskustva-img" rel="noreferrer">
             <img src={WATiskustva} alt="WAT Iskustva logo" />
           </a>
           
@@ -20,19 +20,19 @@ const Footer = () => {
 
           <p>
             <i class="fa-brands fa-instagram"></i>
-            <a href='https://www.instagram.com/moja.amerika/' target="_blank">
+            <a href='https://www.instagram.com/moja.amerika/' target="_blank" rel="noreferrer">
               Instagram @moja.amerika
             </a></p>
 
           <p>
             <i class="fa-brands fa-tiktok"></i>
-            <a href='https://www.tiktok.com/@moja.amerika' target="_blank">
+            <a href='https://www.tiktok.com/@moja.amerika' target="_blank" rel="noreferrer">
               TikTok: @moja.amerika
             </a></p>
 
           <p>
             <i class="fa-brands fa-facebook"></i>
-            <a href='https://www.facebook.com/moja.amerika1/' target="_blank">
+            <a href='https://www.facebook.com/moja.amerika1/' target="_blank" rel="noreferrer">
               Facebook: @moja.amerika1
             </a></p>
 
