@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import logo from '../../Images/logo.png'
 import WATiskustva from '../../Images/watiskustva_logo.png'
 
