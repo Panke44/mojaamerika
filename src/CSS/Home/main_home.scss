@@ -125,197 +125,81 @@
 
 @media screen and (min-width:768px) and (max-width:1200px) {
 
-    .hero_container {
-        div {
-            width: 45%;
-        }
-
-        .hero_img {
-            img {
-                width: 350px;
-            }
-        }
-    }
-
-    .home_services_wrapper {
-        top: -100px;
-        height: 1600px;
-    }
-
-    .card-holder_wrapper {
-        width: 100%;
-    }
-
-    .home_about__content {
-        height: 500px;
-
-        div {
-            margin: 50px 30px;
-        }
-
-        .about__content {
-            height: 320px;
-
-            .about-button {
-                margin: 0px;
-            }
-        }
-
-        .author {
-            width: 400px;
-        }
-    }
-
-    .card-holder_wrapper {
-        height: auto;
-
-        .card_holder {
-            height: auto;
-
-            .image-card {
-                width: 250px;
-                height: 250px;
-            }
-        }
-    }
 }
 
-@media screen and (min-width:1077px) and (max-width:1200px) {}
+@media screen and (min-width:1077px) and (max-width:1200px) {
+
+}
 
 @media screen and (min-width:320px) and (max-width:767px) {
 
-    .hero_container {
-        display: block;
-        height: 100%;
-
-        .hero_text {
-            padding-top: 20px;
-            width: 100%;
-
-            h2 {
-                text-align: center;
-            }
-
-            p {
-                text-align: justify;
-                padding: 0px 20px;
-            }
-
-            .hero-button {
-                margin: auto;
-            }
-        }
-    }
-
-    .home_services_wrapper {
-        position: static;
-        height: auto;
-        padding-bottom: 10px;
-
-        .container {
-            margin: 0px auto 20px;
-        }
-
-        .card-holder_wrapper {
-            width: 100%;
-            height: auto;
-
-            .card_holder {
-                height: auto;
-
-                .services-card {
-                    width: 100%;
-
-                    img {
-                        width: 100%;
-                    }
-
-                    h4 {
-                        font-size: 17px;
-                    }
-
-                    p {
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-    }
-
-    .relative_div {
-        display: none;
-    }
-
-    .home_about__content {
-        display: block;
-        height: auto;
-        padding: 20px 0px;
-
-        .about__content {
-            width: 100%;
-            padding: 10px 20px;
-            margin: 0px;
-            height: auto;
-
-            h2 {
-                text-align: center;
-                margin: 20px auto 0;
-            }
-
-            .about-button {
-                margin: auto;
-
-                button {
-                    display: block;
-                    margin: 0px auto;
-                }
-            }
-        }
-
-        .mechanic-img {
-            width: 90%;
-            margin: 0px auto;
-
-            img {
-                border-radius: 0px;
-            }
-        }
-    }
-
-    .card-holder_wrapper {
-        width: 100%;
-        padding-bottom: 10px;
-        height: auto;
-
-        .card_holder {
-            height: auto;
-            padding-bottom: 10px;
-        }
-    }
 }
 
 
-@media screen and (min-width:320px) and (max-width:375px) {
+@media screen and (min-width:320px) and (max-width:425px) {
 
-    .home_episodes_wrapper {
+    .hero_container{
+        height: 450px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: 70%;
+        // background-size:700%;
+        
 
-        .container {
+        .hero_text{
             width: 100%;
-        }
 
-        .card-holder_wrapper {
-            padding: 0px;
-            height: auto;
+            h2{
+                text-align: center;
+                font-size: 40px;
+                padding: 20px 0px;
+            }
 
-            .card_holder {
-                height: auto;
+            p{
+                text-align: center;
+                padding: 20px;
+                background-color: rgba($color: #000000, $alpha: 0.7);
+            }
 
-                .services-card {
-                    margin: 10px auto;
-                    width: 80%;
-                    height: 220px;
+            .hero-button{
+                display: block;
+                margin: auto;
+
+                a{
+                    font-size: 17px;
+                }
+
+                button{
+                    width: auto;
                 }
             }
+        }
+    }
+
+    
+
+    .hero-img{
+        display: none;
+    }
+
+    .home_episodes_wrapper{
+        .container{
+            width: 100%;
+        }
+    }
+
+    .home_about__content{
+        display: block;
+
+        .about__content{
+            width: 100%;
+            height: auto;
+
+        }
+
+        .author{
+            width: 100%;
+            height: auto;
         }
     }
 }
@@ -323,108 +207,21 @@
 
 @media screen and (min-width:376px) and (max-width:414px) {
 
-    .home_services_wrapper {
-        .container {
-            width: 100%;
-        }
-
-        .card-holder_wrapper {
-            padding: 0px;
-
-            .card_holder {
-                .services-card {
-                    width: 43%;
-                    height: 220px;
-                }
-            }
-        }
-    }
 }
 
 
 @media screen and (min-width:415px) and (max-width:425px) {
-    .home_services_wrapper {
-        .card-holder_wrapper {
-            padding: 0px;
 
-            .card_holder {
-                .services-card {
-                    margin: 10px;
-                    width: 180px;
-                    height: 220px;
-                }
-            }
-        }
-    }
 }
 
 @media screen and (min-width:426px) and (max-width:550px) {
 
-    .hero_container {
-        display: block;
-        height: auto;
-        padding: 10px 20px 20px;
-
-        .hero-text {
-            width: 100%;
-
-            h2 {
-                text-align: center;
-            }
-        }
-    }
-
-    .home_services_wrapper {
-
-        .container {
-            margin: 20px auto;
-            position: relative;
-            top: -70px;
-            margin-bottom: -75px;
-        }
-
-        .card-holder_wrapper {
-            margin: 20px auto;
-            padding: 0px;
-
-            .card_holder {
-                .services-card {
-                    width: 190px;
-                }
-            }
-        }
-    }
 }
 
 @media screen and (min-width:426px) and (max-width:767px) {
 
-    .our-team {
-        .card-holder_wrapper {
-            padding: 0px;
-
-            .card_holder {
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                grid-template-columns: auto auto auto;
-
-                .image-card {
-                    margin: 5px;
-                    width: 45%;
-                }
-            }
-        }
-    }
 }
 
 @media screen and (min-width:551px) and (max-width:767px) {
-    .home_episodes_wrapper {
-        .card-holder_wrapper {
-            .card_holder {
-                .services-card {
-                    width: 230px;
-                }
-            }
-        }
-    }
+
 }
