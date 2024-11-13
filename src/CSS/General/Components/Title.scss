@@ -2,7 +2,7 @@
 
 .title{
     background-color: $black;
-    height: 100px;
+    padding: 10px 0px;
     width: 100%;
     color: white;
     @include flex(center, center);

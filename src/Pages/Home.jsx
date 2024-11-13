@@ -45,7 +45,7 @@ const Home = () => {
 
       <div className='hero_container'>
         <div className="hero_text" >
-          <h2 data-aos="fade-up"> Moja Amerika Podcast </h2>
+          <h1 data-aos="fade-up"> Moja Amerika Podcast </h1>
 
           <p data-aos="fade-up" data-aos-offset="100" data-aos-delay="200"> Razgovori o kulturi, identitetu i snovima naše dijaspore u Sjedinjenim Američkim Državama </p>
 
@@ -72,8 +72,8 @@ const Home = () => {
               <img src={Charles} className='featured-episode-card' alt='Charles Cather podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
-            <Link to="https://www.youtube.com/watch?v=VZf4ulGoHAw" target="_blank" rel="noreferrer">
-              <img src={Dobrota} className='featured-episode-card' alt='Milos Dobrota podkast epizoda' data-aos="fade-up"></img>
+            <Link to="https://www.youtube.com/watch?v=JL1KpDiG8yk&t=1085s" target="_blank" rel="noreferrer">
+              <img src={Milica} className='featured-episode-card' alt='Milica Dangubic podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
             <Link to="https://www.youtube.com/watch?v=JUXOlOXg-YI" target="_blank" rel="noreferrer">
@@ -88,9 +88,10 @@ const Home = () => {
               <img src={Ivan} className='featured-episode-card' alt='Ivan Radojevic podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
-            <Link to="https://www.youtube.com/watch?v=JL1KpDiG8yk&t=1085s" target="_blank" rel="noreferrer">
-              <img src={Milica} className='featured-episode-card' alt='Milica Dangubic podkast epizoda' data-aos="fade-up"></img>
+            <Link to="https://www.youtube.com/watch?v=VZf4ulGoHAw" target="_blank" rel="noreferrer">
+              <img src={Dobrota} className='featured-episode-card' alt='Milos Dobrota podkast epizoda' data-aos="fade-up"></img>
             </Link>
+            
 
           </CardHolder>
 

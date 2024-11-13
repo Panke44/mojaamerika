@@ -43,8 +43,8 @@ const Footer = () => {
 
           <p>
             <i class="fa-solid fa-envelope"></i>
-            <a href='mailto:kontakt@mojaamerika.com'>
-              kontakt@mojaamerika.com
+            <a href='mailto:mojaamerika1@gmail.com'>
+            mojaamerika1@gmail.com
             </a></p>
 
         </div>
