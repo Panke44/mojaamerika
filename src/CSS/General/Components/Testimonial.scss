@@ -9,7 +9,7 @@
 	background-color: white;
 	border-radius: 10px;
 	padding: 20px;
-	width: 300px;
+	width: 350px;
 	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
 .img-area {
@@ -39,8 +39,9 @@
 	color: #666;
 }
 .single-review p {
+	text-align: justify;
 	margin: 0;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.7;
 	color: #333;

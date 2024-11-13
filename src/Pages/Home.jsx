@@ -69,7 +69,7 @@ const Home = () => {
           <CardHolder>
 
             <Link to="https://www.youtube.com/watch?v=jGxBAtzFhEA&t=4527s" target="_blank" rel="noreferrer">
-              <img src={Charles} className='featured-episode-card' alt='Charles Cather podkast epizoda'  data-aos="fade-up"></img>
+              <img src={Charles} className='featured-episode-card' alt='Charles Cather podkast epizoda' data-aos="fade-up"></img>
             </Link>
 
             <Link to="https://www.youtube.com/watch?v=VZf4ulGoHAw" target="_blank" rel="noreferrer">
@@ -103,21 +103,21 @@ const Home = () => {
 
         <div class="wrapper-applications">
           <Link to="https://www.youtube.com/@mojaamerika" target='_blank' rel="noreferrer">
-            <PodcastApp appimg={YouTube} appname="YouTube" appalt="YouTube logo"/>
+            <PodcastApp appimg={YouTube} appname="YouTube" appalt="YouTube logo" />
           </Link>
 
           <Link to="https://open.spotify.com/show/2EkisQ7V0Ra6EzQGUMv4Nf?si=cbb1d9d403bb4b0b" target='_blank' rel="noreferrer">
-            <PodcastApp appimg={Spotify} appname="Spotify" appalt="Spotify logo"/>
+            <PodcastApp appimg={Spotify} appname="Spotify" appalt="Spotify logo" />
           </Link>
 
           <Link to="https://podcasts.apple.com/us/podcast/moja-amerika-podcast/id1652243313" target='_blank' rel="noreferrer">
-            <PodcastApp appimg={Apple} appname="iTunes" appalt="Apple Podcast logo"/>
+            <PodcastApp appimg={Apple} appname="iTunes" appalt="Apple Podcast logo" />
           </Link>
 
           <Link to="https://www.deezer.com/en/show/5321727" target='_blank' rel="noreferrer">
-            <PodcastApp appimg={Deezer} appname="Deezer" appalt="Deezer logo"/>
+            <PodcastApp appimg={Deezer} appname="Deezer" appalt="Deezer logo" />
           </Link>
-         
+
         </div>
       </div>
 
@@ -140,9 +140,22 @@ const Home = () => {
       <div className="blue-section">
         <div class="wrapper">
           <Title title="Rekli su o podkastu" />
-          <Testimonial name="Charles Cather" review="aaa" img={Charles} alt="Charles Cather" ></Testimonial>
-          <Testimonial name="Charles Cather" review="aaa" img={Charles} alt="Charles Cather"></Testimonial>
-          <Testimonial name="Charles Cather" review="aaa" img={Charles} alt="Charles Cather"></Testimonial>
+
+          <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
+          Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 
+          i one sitnice koje čine svakodnevni život u SAD-u tako posebnim."
+            img={Charles} alt="Charles Cather" />
+
+          <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
+          Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 
+          i one sitnice koje čine svakodnevni život u SAD-u tako posebnim."
+            img={Charles} alt="Charles Cather" />
+
+          <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
+          Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 
+          i one sitnice koje čine svakodnevni život u SAD-u tako posebnim."
+            img={Charles} alt="Charles Cather" />
+
         </div>
       </div >
 

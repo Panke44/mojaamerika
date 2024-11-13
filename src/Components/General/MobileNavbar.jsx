@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../Images/logo.png'
+import logo2 from '../../Images/favicon.png'
 import OrangeBtn from './OrangeBtn'
 
 const MobileNavbar = () => {
@@ -8,7 +9,7 @@ const MobileNavbar = () => {
 
         <nav class="navbar navbar-light bg-white position-static navbar-mobile">
             <div class="container-fluid">
-            <Link to="/"> <img src={logo} className='mobile-navbar-img' alt="CHI Repair & Wash Inc orange/gray Logo" /> </Link>
+            <Link to="/"> <img src={logo2} className='mobile-navbar-img' alt="CHI Repair & Wash Inc orange/gray Logo" /> </Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -20,8 +21,8 @@ const MobileNavbar = () => {
                         <ul class="navbar-nav justify-content-end flex-grow-1">
                             <li> <Link to="/" className='nav-link' aria-current="page">  Podkast </Link> </li>
                             <li> <Link to="/epizode" className='nav-link' aria-current="page">  Epizode </Link> </li>
-                            <Link className='nav-link' aria-current="page">  
-                                <OrangeBtn btnText="WAT Iskustva"></OrangeBtn>
+                            <Link target='_blank' className='nav-link' aria-current="page">  
+                                <OrangeBtn btnText="WAT Iskustva" btnLink="https://watiskustva.com/"></OrangeBtn>
                             </Link>
 
                         </ul>
