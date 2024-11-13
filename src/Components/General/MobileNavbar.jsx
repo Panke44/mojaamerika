@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../Images/logo.png'
+// import logo from '../../Images/logo.png'
 import logo2 from '../../Images/favicon.png'
 import OrangeBtn from './OrangeBtn'
 
