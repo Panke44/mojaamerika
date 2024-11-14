@@ -26,6 +26,8 @@ import Milica from '../Images/card/card_milica.png';
 import Nemanja from '../Images/card/card_nemanja.png';
 import Stojan from '../Images/card/card_stojan.jpg';
 
+import Placeholder from '../Images/placeholder.webp'
+
 import Apple from '../Images/Applications/itunes.png';
 import Spotify from '../Images/Applications/spotify.png';
 import Deezer from '../Images/Applications/deezer.jpg';
@@ -127,9 +129,9 @@ const Home = () => {
       </div>
       <div className="home_about__content">
 
-          <div className="author" data-aos="fade-up" data-aos-delay="300">
-            <img src={Author} alt="Milos Panic sedi ispred Beverly Hills znaka u Los Angelesu" />
-          </div>
+        <div className="author" data-aos="fade-up" data-aos-delay="300">
+          <img src={Author} alt="Milos Panic sedi ispred Beverly Hills znaka u Los Angelesu" />
+        </div>
         <div className="about__content">
 
           {/* <div className="about-button">
@@ -159,25 +161,17 @@ const Home = () => {
         <div class="wrapper">
           <Title title="Rekli su o podkastu" />
 
-          <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
-          Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 
-          i one sitnice koje čine svakodnevni život u SAD-u tako posebnim."
-            img={Charles} alt="Charles Cather" />
+          <Testimonial name="Marko Petrović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
+            img={Placeholder} alt="Charles Cather" />
 
-          <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
-          Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 
-          i one sitnice koje čine svakodnevni život u SAD-u tako posebnim."
-            img={Charles} alt="Charles Cather" />
+          <Testimonial name="Milica Nikolić" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
+            img={Placeholder} alt="Charles Cather" />
 
-          <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
-          Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 
-          i one sitnice koje čine svakodnevni život u SAD-u tako posebnim."
-            img={Charles} alt="Charles Cather" />
+          <Testimonial name="Stefan Jovanović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
+            img={Placeholder} alt="Charles Cather" />
 
-          <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
-          Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 
-          i one sitnice koje čine svakodnevni život u SAD-u tako posebnim."
-            img={Charles} alt="Charles Cather" />
+          <Testimonial name="Ana Popović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
+            img={Placeholder} alt="Charles Cather" />
 
         </div>
       </div >
