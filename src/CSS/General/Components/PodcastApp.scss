@@ -10,14 +10,14 @@
 	background-color: white;
 	border-radius: 10px;
 	padding: 10px;
-	width: 220px;
+	width: 200px;
 	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-    transition: 0.3s ease;
+	transition: 0.3s ease;
 
-    &:hover{
-        transform: translateY(-10px);
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    }
+	&:hover {
+		transform: translateY(-10px);
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	}
 }
 
 .podcast-app-img-area {
@@ -25,11 +25,11 @@
 	height: 50px;
 	overflow: hidden;
 	border-radius: 50%;
-	margin-right: 25px;
+	// margin-right: 20px;
 
-    img{
-        width: 100%;
-    }
+	img {
+		width: 100%;
+	}
 }
 
 .podcast-app-header-content {
@@ -37,39 +37,93 @@
 	align-items: center;
 }
 
-.podcast-app-info{
-	h4{
+.podcast-app-info {
+	h4 {
 		color: black;
-		font-size: 22px;
+		font-size: 20px;
 		font-weight: 600;
 		margin: 0px;
+		padding: 0px 20px;
+		// padding: 0px;
 	}
 }
 
 
-
-@media screen and (min-width:320px) and (max-width:425px) {
+@media screen and (min-width:320px) and (max-width:650px) {
 
 	.wrapper-applications {
 		gap: 10px;
+		width: 330px;
+		margin: auto;
 
-		a{
-			width: 45%;
+		a {
+			width: auto;
 		}
 	}
+}
 
-	.podcast-app-card{
-		width: 100%;
+@media screen and (min-width:650px) and (max-width:767px) {
+	.wrapper-applications {
+		gap: 10px;
 
-		h4{
-			font-size: 17px;
+		a {
+			width: auto;
+		}
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+	.wrapper-applications {
+		gap: 10px;
+
+		a {
+			width: auto;
 		}
 
-		.podcast-app-img-area{
+		.podcast-app-card {
+			width: auto;
+		}
+
+		h4{
+			font-size: 20px;
+			padding: 0px 20px;
+		}
+
+		.podcast-app-img-area {
+			width: 40px;
+			height: 40px;
+			margin: 0px;
+
+			img {
+				border-radius: 50%;
+			}
+		}
+
+	}
+
+
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+	.podcast-app-header-content {
+		width: 125px;
+	}
+
+	.podcast-app-card {
+		width: 150px;
+
+		h4 {
+			font-size: 17px;
+			padding: 0px;
+		}
+
+		.podcast-app-img-area {
 			width: 25px;
 			height: 25px;
+			margin-right: 20px;
 
-			img{
+			img {
 				border-radius: 50%;
 			}
 		}

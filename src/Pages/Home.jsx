@@ -91,7 +91,7 @@ const Home = () => {
             <Link to="https://www.youtube.com/watch?v=VZf4ulGoHAw" target="_blank" rel="noreferrer">
               <img src={Dobrota} className='featured-episode-card' alt='Milos Dobrota podkast epizoda' data-aos="fade-up"></img>
             </Link>
-            
+
 
           </CardHolder>
 
@@ -122,25 +122,47 @@ const Home = () => {
         </div>
       </div>
 
+      <div class="about-button-pre">
+        <WhiteBtn btnText="Autor" />
+      </div>
       <div className="home_about__content">
-        <div className="about__content">
-          <div className="about-button">
-            <WhiteBtn btnText="Autor" />
+
+          <div className="author" data-aos="fade-up" data-aos-delay="300">
+            <img src={Author} alt="Milos Panic sedi ispred Beverly Hills znaka u Los Angelesu" />
           </div>
+        <div className="about__content">
+
+          {/* <div className="about-button">
+            <WhiteBtn btnText="Autor" />
+          </div> */}
           <h2 data-aos="fade-up">Miloš Panić</h2>
           <p data-aos="fade-up" data-aos-delay="200">
-            Osnivač Moja Amerika Podkasta, 3x Work & Travel alumni (Ocean City i 2x Block Island)
+            Osnivač "Moja Amerika Podcasta", inženjer informacionih tehnologija
+            po struci, trostruki Work & Travel alumni
+            (Ocean City, MD i dva puta Block Island, RI)
+            i strastveni ljubitelj Havaja.
+            Do sada sam posetio 9 od 50 saveznih država i jedan distrikt.
+
+            <br /><br />
+
+            Pokrenuo sam podkast sa ciljem da okupim zajednicu
+            naših ljudi koji se zanimaju za Ameriku,
+            da čujem njihove priče i predstavim stvarni život u Americi
+            kroz iskustva naših ljudi.
           </p>
         </div>
 
-        <div className="author" data-aos="fade-up" data-aos-delay="300">
-          <img src={Author} alt="Milos Panic sedi ispred Beverly Hills znaka u Los Angelesu" />
-        </div>
+
       </div>
 
       <div className="blue-section">
         <div class="wrapper">
           <Title title="Rekli su o podkastu" />
+
+          <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
+          Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 
+          i one sitnice koje čine svakodnevni život u SAD-u tako posebnim."
+            img={Charles} alt="Charles Cather" />
 
           <Testimonial name="Charles Cather" review="Ako volite Ameriku, ovaj podcast je pravo mesto za vas! 
           Svaka epizoda vodi slušaoce na jedinstveno putovanje kroz američku kulturu, 

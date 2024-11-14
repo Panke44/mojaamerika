@@ -85,23 +85,21 @@
 
 .home_about__content {
     width: 100%;
-    height: 600px;
+    height: auto;
+    padding: 20px;
     @include flex(flex-start, center);
 
-    div {
-        margin: 50px 50px 50px 0px;
-    }
+    // div {
+    //     margin: 50px 50px 50px 0px;
+    // }
 
     .about__content {
         width: 500px;
-        height: 500px;
+        height: auto;
+        padding-left: 20px;
 
         .about-button{
             margin: 0px;
-        }
-
-        h2 {
-            margin: 40px auto 0;
         }
 
         p {
@@ -127,9 +125,35 @@
     padding:10px 0px 20px 0px;
 }
 
+.about-button-pre{
+    display: block;
+    width: 100%;
+    margin: auto;
+
+    button{
+        margin: 20px auto 0px auto;
+        display: block;
+    }
+}
+
 
 @media screen and (min-width:768px) and (max-width:1200px) {
+    .hero_container{
+        height: auto;
+        padding: 40px;
+        background-position: 50%;
 
+        .hero_text{
+            width: 100%;
+
+            p{width: 375px;}
+        }
+    
+    
+        .hero-img{
+            display: none;
+        }
+    }
 }
 
 @media screen and (min-width:1077px) and (max-width:1200px) {
@@ -141,17 +165,18 @@
 }
 
 
-@media screen and (min-width:320px) and (max-width:425px) {
+@media screen and (min-width:320px) and (max-width:767px) {
 
     .hero_container{
-        height: 400px;
+        height: auto;
         display: block;
         background-repeat: no-repeat;
         background-position: 70%;
 
         .hero_text{
             width: 100%;
-            height: 400px;
+            padding: 20px;
+            height: auto;
             background-color: rgba($color: #000000, $alpha: 0.7);
 
             h1{
@@ -215,6 +240,11 @@
             width: 100%;
             height: auto;
             margin: 10px 0px;
+            padding: 0px;
+
+            h2{
+                margin-top: 20px;
+            }
         }
 
         .about-button{
@@ -232,6 +262,86 @@
     }
 }
 
+@media screen and (min-width:551px) and (max-width:1024px) {
+
+    .card-holder_wrapper{
+        width: 100%;
+    }
+
+    .card_holder{
+        a{
+            width: 30%;
+            margin: 5px;
+
+            .featured-episode-card{
+                width: 100%;
+                margin: 0px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1025px) {
+
+    .card-holder_wrapper{
+        width: 1000px;
+    }
+    .card_holder{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width:426px) and (max-width: 767px) {
+    .about-button-pre{
+        display: block;
+    }
+
+    .about__content{
+        .about-button{
+            display: none;
+        }
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+}
+
+// @media screen and (min-width:768px) and (max-width: 1024px) {
+
+//     .about-button-pre{
+//         display: block;
+//     }
+
+//     .home_about__content{
+//         display: flex;
+//         padding: 10px;
+
+//         .about__content{
+//             margin: 0px;
+//             padding: 0px 0px 10px 10px;
+//             width: 80%;
+
+//             .about-button{
+//                 display: none;
+//             }
+
+//             h2{
+//                 margin: 0px;
+//             }
+//         }
+
+//         .author{
+//             width: 20%;
+//         }
+//     }
+// }
+
 
 @media screen and (min-width:376px) and (max-width:414px) {
 
@@ -239,17 +349,5 @@
 
 
 @media screen and (min-width:415px) and (max-width:425px) {
-
-}
-
-@media screen and (min-width:426px) and (max-width:550px) {
-
-}
-
-@media screen and (min-width:426px) and (max-width:767px) {
-
-}
-
-@media screen and (min-width:551px) and (max-width:767px) {
 
 }
