@@ -9,7 +9,7 @@ const Testimonial = (props) => {
                 </div>
                 <div class="info">
                     <h4>{props.name}</h4>
-                    <p>Maketing Manager</p>
+                    <p>{props.occupation}</p>
                 </div>
             </div>
             <div class="single-review">

@@ -162,16 +162,16 @@ const Home = () => {
           <Title title="Rekli su o podkastu" />
 
           <Testimonial name="Marko Petrović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
-            img={Placeholder} alt="Charles Cather" />
+            img={Placeholder} occupation="Student | PMF" alt="test" />
 
           <Testimonial name="Milica Nikolić" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
-            img={Placeholder} alt="Charles Cather" />
+            img={Placeholder} occupation="Doktorica" alt="test" />
 
           <Testimonial name="Stefan Jovanović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
-            img={Placeholder} alt="Charles Cather" />
+            img={Placeholder} occupation="Advokat" alt="test" />
 
           <Testimonial name="Ana Popović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
-            img={Placeholder} alt="Charles Cather" />
+            img={Placeholder} occupation="Profesorica" alt="test" />
 
         </div>
       </div >
