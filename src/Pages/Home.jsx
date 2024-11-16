@@ -26,7 +26,9 @@ import Milica from '../Images/card/card_milica.png';
 import Nemanja from '../Images/card/card_nemanja.png';
 import Stojan from '../Images/card/card_stojan.jpg';
 
+// Reviews
 import Placeholder from '../Images/placeholder.webp'
+import Bojana from '../Images/reviews/bojana_odonnell.jpg'
 
 import Apple from '../Images/Applications/itunes.png';
 import Spotify from '../Images/Applications/spotify.png';
@@ -161,8 +163,9 @@ const Home = () => {
         <div class="wrapper">
           <Title title="Rekli su o podkastu" />
 
-          <Testimonial name="Marko Petrović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
-            img={Placeholder} occupation="Student | PMF" alt="test" />
+          <Testimonial name="Bojana O’Donnell" review="
+          Svakom podkastu se jako radujem i svako iskustvo me vrati u studentske dane i shvatim koliko bih bila bolje pripremljena za odlazak na W&T da je ovako nešto postojalo pre desetak godina. Sve najbolje u daljem radu!"
+            img={Bojana} occupation="Brentwood, NH" alt="test" />
 
           <Testimonial name="Milica Nikolić" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
             img={Placeholder} occupation="Doktorica" alt="test" />

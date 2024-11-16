@@ -76,4 +76,12 @@
 	}
 }
 
+@media screen and (min-width:320px) and (max-width:425px) {
+	.wrapper{
+		gap: 10px;
+	}
+    .review-card{
+        width: 90%;
+    }
+}
 
