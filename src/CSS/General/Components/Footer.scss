@@ -25,6 +25,7 @@
         img {
             margin-bottom: 20px;
             width: 170px;
+            display: block;
         }
 
         .wat-iskustva-img{ margin: 0px;}
@@ -67,7 +68,7 @@
             }
 
             img {
-                width: 220px;
+                width: 200px;
             }
 
             p {
@@ -106,9 +107,9 @@
             margin: none;
         }
 
-        .border-item {
-            border: none;
-        }
+        // .border-item {
+        //     border: none;
+        // }
     }
 }
 
@@ -118,22 +119,20 @@
         display: block;
 
         .row {
-            // padding: 10px 0px 0px 0px;
             padding: 20px 0px;
             height: auto;
 
             .footer-item {
                 margin: 10px 0px;
-                padding: 0px 0px 0px 20px;
+                padding: 0px 0px 0px 10px;
                 border: none;
                 height: auto;
 
                 &:nth-child(1) {
-                    // height: 150px;
                     padding-bottom: 10px;
 
                     img{
-                        width: 200px;
+                        width: 170px;
                         margin: 0px 20px 0px 0px;
                         display: block;
 
@@ -155,6 +154,9 @@
 
         .footer-item{
             padding: 0px;
+            padding: 0px;
+            border: none;
+            height: auto;
         }
 
         .footer-item:nth-child(2){

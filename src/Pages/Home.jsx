@@ -29,6 +29,7 @@ import Stojan from '../Images/card/card_stojan.jpg';
 // Reviews
 import Placeholder from '../Images/placeholder.webp'
 import Bojana from '../Images/reviews/bojana_odonnell.jpg'
+import Laura from '../Images/reviews/laura_kruljac.jpeg'
 
 import Apple from '../Images/Applications/itunes.png';
 import Spotify from '../Images/Applications/spotify.png';
@@ -170,8 +171,8 @@ const Home = () => {
           <Testimonial name="Milica Nikolić" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
             img={Placeholder} occupation="Doktorica" alt="test" />
 
-          <Testimonial name="Stefan Jovanović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
-            img={Placeholder} occupation="Advokat" alt="test" />
+          <Testimonial name="Laura Kruljac" review="Snažan prikaz uspjeha i izazova naših ljudi u Americi. Iskreni razgovori o osobnim iskustvima pružaju vrijednu  perspektivu o tome kako mladi traže balans i svoje mjesto u modernom društvu."
+            img={Laura} occupation="Zagreb" alt="test" />
 
           <Testimonial name="Ana Popović" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
             img={Placeholder} occupation="Profesorica" alt="test" />
