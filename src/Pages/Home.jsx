@@ -30,6 +30,7 @@ import Stojan from '../Images/card/card_stojan.jpg';
 import Placeholder from '../Images/placeholder.webp'
 import Bojana from '../Images/reviews/bojana_odonnell.jpg'
 import Laura from '../Images/reviews/laura_kruljac.jpeg'
+import Anja from '../Images/reviews/anja_mihajlovic.jpg'
 
 import Apple from '../Images/Applications/itunes.png';
 import Spotify from '../Images/Applications/spotify.png';
@@ -166,10 +167,10 @@ const Home = () => {
 
           <Testimonial name="Bojana O’Donnell" review="
           Svakom podkastu se jako radujem i svako iskustvo me vrati u studentske dane i shvatim koliko bih bila bolje pripremljena za odlazak na W&T da je ovako nešto postojalo pre desetak godina. Sve najbolje u daljem radu!"
-            img={Bojana} occupation="Brentwood, NH" alt="test" />
+            img={Bojana} occupation="Brentwood, NH, USA" alt="test" />
 
-          <Testimonial name="Milica Nikolić" review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus."
-            img={Placeholder} occupation="Doktorica" alt="test" />
+          <Testimonial name="Anja Mihajlović" review="Prozor koji pruža pogled u realnost življenja ''Američkog sna'', kroz zanimljive anegdote, ukazuje na kulturne razlike, koliko je zapravo izazovno mladima sa prostora Balkana živjeti i raditi izvan istog. Svaka epizoda je autentična i otvara vidike i baca vas u razmišljanje."
+            img={Anja} occupation="Podgorica, Crna Gora" alt="test" />
 
           <Testimonial name="Laura Kruljac" review="Snažan prikaz uspjeha i izazova naših ljudi u Americi. Iskreni razgovori o osobnim iskustvima pružaju vrijednu  perspektivu o tome kako mladi traže balans i svoje mjesto u modernom društvu."
             img={Laura} occupation="Zagreb, Hrvatska" alt="test" />

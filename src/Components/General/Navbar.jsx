@@ -10,7 +10,6 @@ const Navbar = () => {
       <ul>
         <li> <Link to="/"> Podkast </Link> </li>
         <li> <Link to="/epizode"> Epizode </Link> </li>
-        {/* <li> <Link to="/kontakt"> Kontakt </Link> </li> */}
         <OrangeBtn btnLink="https://watiskustva.com/" btnText="WAT Iskustva"  />        
       </ul>
     </nav>
