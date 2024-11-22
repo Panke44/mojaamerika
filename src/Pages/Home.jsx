@@ -27,7 +27,7 @@ import Nemanja from '../Images/card/card_nemanja.png';
 import Stojan from '../Images/card/card_stojan.jpg';
 
 // Reviews
-import Placeholder from '../Images/placeholder.webp'
+// import Placeholder from '../Images/placeholder.webp'
 import Bojana from '../Images/reviews/bojana_odonnell.jpg'
 import Laura from '../Images/reviews/laura_kruljac.jpeg'
 import Anja from '../Images/reviews/anja_mihajlovic.jpg'
