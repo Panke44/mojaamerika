@@ -30,7 +30,7 @@ import Stojan from '../Images/card/card_stojan.jpg';
 import Placeholder from '../Images/placeholder.webp'
 import Bojana from '../Images/reviews/bojana_odonnell.jpg'
 import Laura from '../Images/reviews/laura_kruljac.jpeg'
-import Anja from '../Images/reviews/anja_mihajlovic.JPG'
+import Anja from '../Images/reviews/anja_mihajlovic.jpg'
 
 import Apple from '../Images/Applications/itunes.png';
 import Spotify from '../Images/Applications/spotify.png';
