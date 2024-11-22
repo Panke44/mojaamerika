@@ -10,7 +10,7 @@ const Navbar = () => {
       <ul>
         <li> <Link to="/"> Podkast </Link> </li>
         <li> <Link to="/epizode"> Epizode </Link> </li>
-        <OrangeBtn btnLink="https://watiskustva.com/" btnText="WAT Iskustva"  />        
+        <OrangeBtn btnLink="https://watiskustva.com/" btnText="WAT Iskustva" target="_blank" rel="noopener"  />        
       </ul>
     </nav>
   )

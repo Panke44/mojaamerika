@@ -7,7 +7,7 @@ const Bottom = () => {
         <div className="bottom-navbar">
             <Link to="/"> Podkast </Link>
             <Link to="/epizode"> Sve epizode </Link>
-            <Link to="https://watiskustva.com/" target='_blank'> WAT Iskustva </Link>
+            <Link to="https://watiskustva.com/" target='_blank' rel="noopener"> WAT Iskustva </Link>
         </div>
 
         <div className="bottom-copyright">

@@ -22,7 +22,7 @@ const MobileNavbar = () => {
                             <li> <Link to="/" className='nav-link' aria-current="page">  Podkast </Link> </li>
                             <li> <Link to="/epizode" className='nav-link' aria-current="page">  Epizode </Link> </li>
                             <Link target='_blank' className='nav-link' aria-current="page">  
-                                <OrangeBtn btnText="WAT Iskustva" btnLink="https://watiskustva.com/"></OrangeBtn>
+                                <OrangeBtn btnText="WAT Iskustva" btnLink="https://watiskustva.com/" target="_blank" rel="noopener"></OrangeBtn>
                             </Link>
 
                         </ul>

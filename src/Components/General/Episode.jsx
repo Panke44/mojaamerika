@@ -13,7 +13,7 @@ const Episode = (props) => {
             </div>
 
             <div className="center-button">
-                <OrangeBtn btnText="Pogledaj" btnLink={props.link} target="_blank"></OrangeBtn>
+                <OrangeBtn btnText="Pogledaj" btnLink={props.link} target="_blank" rel="noopener"></OrangeBtn>
             </div>
         </div>
     )
