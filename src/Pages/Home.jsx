@@ -170,13 +170,13 @@ const Home = () => {
             img={Bojana} occupation="Brentwood, NH, USA" alt="Slika Bojane O'Donnell" />
 
           <Testimonial name="Charles Cather" review="I had the honor of joking Milos on Moja Amerika a few months ago. I love the passion, detailed info and non filtered commentary that this podcast puts out for future work and travel students! Great job on fantastic podcast!"
-            img={CharlesCather} occupation="Novi Sad, Srbija" alt="test" />
+            img={CharlesCather} occupation="Novi Sad, Srbija" alt="Charles Cather in front of Serbian flag on the wall" />
 
           <Testimonial name="Anja Mihajlović" review="Prozor koji pruža pogled u realnost življenja ''Američkog sna'', kroz zanimljive anegdote, ukazuje na kulturne razlike, koliko je zapravo izazovno mladima sa prostora Balkana živjeti i raditi izvan istog. Svaka epizoda je autentična i otvara vidike i baca vas u razmišljanje."
             img={Anja} occupation="Podgorica, Crna Gora" alt="Slika Anje Mihajlović" />
 
           <Testimonial name="Laura Kruljac" review="Snažan prikaz uspjeha i izazova naših ljudi u Americi. Iskreni razgovori o osobnim iskustvima pružaju vrijednu  perspektivu o tome kako mladi traže balans i svoje mjesto u modernom društvu."
-            img={Laura} occupation="Zagreb, Hrvatska" alt="Slika Laure Kruljac na Brooklyn mostu" />
+            img={Laura} occupation="Zagreb, Hrvatska" alt="Laura Kruljac na Bruklin mostu u Njujorku" />
         </div>
       </div >
 
