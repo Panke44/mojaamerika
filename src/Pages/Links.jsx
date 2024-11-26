@@ -23,12 +23,12 @@ const Links = () => {
             {/* <h2>Moja Amerika Podcast</h2> */}
         </header>
 
-        <Link href="https://watiskustva.com/" img={wat} imgalt="pizda amterina" sitename="Work & Travel Iskustva" />
-        <Link href="https://watiskustva.com/" img={site} imgalt="pizda amterina" sitename="Sajt" />
-        <Link href="https://www.youtube.com/@mojaamerika" img={youtube} imgalt="pizda amterina" sitename="YouTube" />
-        <Link href="https://open.spotify.com/show/2EkisQ7V0Ra6EzQGUMv4Nf" img={spotify} imgalt="pizda amterina" sitename="Spotify & Apple" />
-        <Link href="hthttps://podcast.rs/show/moja-amerika-podcast/" img={pod_rs} imgalt="pizda amterina" sitename="Podcast.rs" />
-        <Link href="https://paypal.me/mojaamerika" img={paypal} imgalt="pizda amterina" sitename="Podrži projekat" />
+        <Link href="https://watiskustva.com/" img={wat} imgalt="American Flag within a star icon" sitename="Work & Travel Iskustva" />
+        <Link href="https://mojaamerika.com/" img={site} imgalt="World icon" sitename="Sajt" />
+        <Link href="https://www.youtube.com/@mojaamerika" img={youtube} imgalt="YouTube logo" sitename="YouTube" />
+        <Link href="https://open.spotify.com/show/2EkisQ7V0Ra6EzQGUMv4Nf" img={spotify} imgalt="Spotify logo" sitename="Spotify & Apple" />
+        <Link href="hthttps://podcast.rs/show/moja-amerika-podcast/" img={pod_rs} imgalt="Podcast.rs logo" sitename="Podcast.rs" />
+        <Link href="https://paypal.me/mojaamerika" img={paypal} imgalt="Paypal logo" sitename="Podrži projekat" />
 
         <div className="link-footer">
             <p> &copy; {new Date().getFullYear()} Moja Amerika.  </p>
