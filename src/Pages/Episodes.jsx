@@ -54,7 +54,7 @@ import 'aos/dist/aos.css'
 
 const Episodes = () => {
   useEffect(() => {
-    document.title = "Moja Amerika Podcast - Sve epizode";
+    document.title = "Sve epizode";
     AOS.init({ duration: 400 });
   })
 
