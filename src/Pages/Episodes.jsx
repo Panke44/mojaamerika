@@ -48,6 +48,7 @@ import VladimirDjukanovic from '../Images/episodes/vladimir_djukanovic.jpg';
 import MilosDobrota from '../Images/episodes/milos_dobrota.jpg';
 import MarijaEgic from '../Images/episodes/marija_egic.jpg';
 import SanjaSimunovic from '../Images/episodes/sanja_simunovic.jpg'
+import MilosTodosijevic from '../Images/episodes/sanja_simunovic.jpg'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -65,6 +66,9 @@ const Episodes = () => {
       <MobileNavbar />
 
       <div class="wrapper-episodes">
+      <Episode img={MilosTodosijevic} header="EP 31 | Američki San: Školovanje u SAD-u od Srednje Škole do Koledža | Miloš Todosijević"
+          link="https://www.youtube.com/watch?v=d9kFGBmTbfY" />
+
         <Episode img={SanjaSimunovic} header="EP 30 | Na Nantucketu ima više milijardera nego milionera | Sanja Simunović"
           link="https://www.youtube.com/watch?v=8QXByI0e7x0" />
 
