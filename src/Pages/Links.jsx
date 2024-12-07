@@ -27,7 +27,7 @@ const Links = () => {
         <Link href="https://mojaamerika.com/" img={site} imgalt="World icon" sitename="Sajt" />
         <Link href="https://www.youtube.com/@mojaamerika" img={youtube} imgalt="YouTube logo" sitename="YouTube" />
         <Link href="https://open.spotify.com/show/2EkisQ7V0Ra6EzQGUMv4Nf" img={spotify} imgalt="Spotify logo" sitename="Spotify & Apple" />
-        <Link href="hthttps://podcast.rs/show/moja-amerika-podcast/" img={pod_rs} imgalt="Podcast.rs logo" sitename="Podcast.rs" />
+        <Link href="https://podcast.rs/show/moja-amerika-podcast/" img={pod_rs} imgalt="Podcast.rs logo" sitename="Podcast.rs" />
         <Link href="https://paypal.me/mojaamerika" img={paypal} imgalt="Paypal logo" sitename="Podrži projekat" />
 
         <div className="link-footer">
