@@ -48,7 +48,7 @@ import VladimirDjukanovic from '../Images/episodes/vladimir_djukanovic.jpg';
 import MilosDobrota from '../Images/episodes/milos_dobrota.jpg';
 import MarijaEgic from '../Images/episodes/marija_egic.jpg';
 import SanjaSimunovic from '../Images/episodes/sanja_simunovic.jpg'
-import MilosTodosijevic from '../Images/episodes/sanja_simunovic.jpg'
+import MilosTodosijevic from '../Images/episodes/milos_todosijevic.jpg'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
