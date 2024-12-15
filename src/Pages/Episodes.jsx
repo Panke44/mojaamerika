@@ -49,6 +49,7 @@ import MilosDobrota from '../Images/episodes/milos_dobrota.jpg';
 import MarijaEgic from '../Images/episodes/marija_egic.jpg';
 import SanjaSimunovic from '../Images/episodes/sanja_simunovic.jpg'
 import MilosTodosijevic from '../Images/episodes/milos_todosijevic.jpg'
+import MihajloPantic from '../Images/episodes/mihajlo_pantic.jpg'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -66,6 +67,9 @@ const Episodes = () => {
       <MobileNavbar />
 
       <div class="wrapper-episodes">
+      <Episode img={MihajloPantic} header="EP 32 | Od Istočne do Zapadne obale: Work and Travel odiseja kroz SAD | Mihajlo Pantić"
+          link="https://www.youtube.com/watch?v=_6oXf8TWCI8" />
+
       <Episode img={MilosTodosijevic} header="EP 31 | Američki San: Školovanje u SAD-u od Srednje Škole do Koledža | Miloš Todosijević"
           link="https://www.youtube.com/watch?v=d9kFGBmTbfY" />
 
