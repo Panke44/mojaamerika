@@ -71,8 +71,8 @@ const Episodes = () => {
       {/* <Episode img={} header=""
           link="" /> */}
 
-      /* <Episode img={BojanaCoso} header="EP 33 | Letnja avantura: Od rada na Block Islandu do čarolije Njujorka | Bojana Ćoso"
-          link="https://www.youtube.com/watch?v=EKnlg48ugOs" /> */
+      <Episode img={BojanaCoso} header="EP 33 | Letnja avantura: Od rada na Block Islandu do čarolije Njujorka | Bojana Ćoso"
+          link="https://www.youtube.com/watch?v=EKnlg48ugOs" />
 
       <Episode img={MihajloPantic} header="EP 32 | Od Istočne do Zapadne obale: Work and Travel odiseja kroz SAD | Mihajlo Pantić"
           link="https://www.youtube.com/watch?v=_6oXf8TWCI8" />
