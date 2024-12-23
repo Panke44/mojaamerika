@@ -50,6 +50,7 @@ import MarijaEgic from '../Images/episodes/marija_egic.jpg';
 import SanjaSimunovic from '../Images/episodes/sanja_simunovic.jpg'
 import MilosTodosijevic from '../Images/episodes/milos_todosijevic.jpg'
 import MihajloPantic from '../Images/episodes/mihajlo_pantic.jpg'
+import BojanaCoso from '../Images/episodes/bojana_coso.jpg'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -67,6 +68,12 @@ const Episodes = () => {
       <MobileNavbar />
 
       <div class="wrapper-episodes">
+      {/* <Episode img={} header=""
+          link="" /> */}
+
+      /* <Episode img={BojanaCoso} header="EP 33 | Letnja avantura: Od rada na Block Islandu do čarolije Njujorka | Bojana Ćoso"
+          link="https://www.youtube.com/watch?v=EKnlg48ugOs" /> */
+
       <Episode img={MihajloPantic} header="EP 32 | Od Istočne do Zapadne obale: Work and Travel odiseja kroz SAD | Mihajlo Pantić"
           link="https://www.youtube.com/watch?v=_6oXf8TWCI8" />
 
