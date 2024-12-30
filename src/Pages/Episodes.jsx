@@ -51,6 +51,7 @@ import SanjaSimunovic from '../Images/episodes/sanja_simunovic.jpg'
 import MilosTodosijevic from '../Images/episodes/milos_todosijevic.jpg'
 import MihajloPantic from '../Images/episodes/mihajlo_pantic.jpg'
 import BojanaCoso from '../Images/episodes/bojana_coso.jpg'
+import ZlatijaRakic from '../Images/episodes/zlatija_rakic.png'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -70,6 +71,9 @@ const Episodes = () => {
       <div class="wrapper-episodes">
       {/* <Episode img={} header=""
           link="" /> */}
+
+      <Episode img={ZlatijaRakic} header="EP 34 | Work & Travel Iskustvo koje iz Amerike doneseš kući nema cenu | Zlatija Rakić"
+          link="https://www.youtube.com/watch?v=wMOLHrXKa0s" />
 
       <Episode img={BojanaCoso} header="EP 33 | Letnja avantura: Od rada na Block Islandu do čarolije Njujorka | Bojana Ćoso"
           link="https://www.youtube.com/watch?v=EKnlg48ugOs" />
