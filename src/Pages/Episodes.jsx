@@ -52,6 +52,7 @@ import MilosTodosijevic from '../Images/episodes/milos_todosijevic.jpg'
 import MihajloPantic from '../Images/episodes/mihajlo_pantic.jpg'
 import BojanaCoso from '../Images/episodes/bojana_coso.jpg'
 import ZlatijaRakic from '../Images/episodes/zlatija_rakic.JPG'
+import JelenaBrajevic from '../Images/episodes/jelena_brajevic.jpg'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -71,6 +72,9 @@ const Episodes = () => {
       <div class="wrapper-episodes">
       {/* <Episode img={} header=""
           link="" /> */}
+
+      <Episode img={JelenaBrajevic} header="EP 35 | Au Pair USA: Kako sam preživela i zavolela Pittsburgh i Salt Lake City | Jelena Brajević"
+          link="https://www.youtube.com/watch?v=rMyUCZjcJiY" />
 
       <Episode img={ZlatijaRakic} header="EP 34 | Work & Travel Iskustvo koje iz Amerike doneseš kući nema cenu | Zlatija Rakić"
           link="https://www.youtube.com/watch?v=wMOLHrXKa0s" />
