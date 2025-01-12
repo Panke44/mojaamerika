@@ -51,7 +51,7 @@ import SanjaSimunovic from '../Images/episodes/sanja_simunovic.jpg'
 import MilosTodosijevic from '../Images/episodes/milos_todosijevic.jpg'
 import MihajloPantic from '../Images/episodes/mihajlo_pantic.jpg'
 import BojanaCoso from '../Images/episodes/bojana_coso.jpg'
-import ZlatijaRakic from '../Images/episodes/zlatija_rakic.JPG'
+import ZlatijaRakic from '../Images/episodes/zlatija_rakic.jpg'
 import JelenaBrajevic from '../Images/episodes/jelena_brajevic.jpg'
 import DraganaTrifunovic from '../Images/episodes/dragana_trifunovic.jpg'
 
