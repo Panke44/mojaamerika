@@ -73,7 +73,7 @@ const Episodes = () => {
       <div class="wrapper-episodes">
       {/* <Episode img={} header=""
           link="" /> */}
-          
+
 
       <Episode img={DraganaTrifunovic} header="EP 36 | Work and Travel: Od mirnog Cape Coda do uragana u Majamiju | Dragana Trifunović"
           link="https://www.youtube.com/watch?v=zMqH_r3s4MY" />
