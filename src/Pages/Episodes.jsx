@@ -51,7 +51,7 @@ import SanjaSimunovic from '../Images/episodes/sanja_simunovic.jpg'
 import MilosTodosijevic from '../Images/episodes/milos_todosijevic.jpg'
 import MihajloPantic from '../Images/episodes/mihajlo_pantic.jpg'
 import BojanaCoso from '../Images/episodes/bojana_coso.jpg'
-// import ZlatijaRakic from '../Images/episodes/zlatija_rakic.jpg'
+import ZlatijaRakic from '../Images/episodes/zlatija_rakic.jpg'
 import JelenaBrajevic from '../Images/episodes/jelena_brajevic.jpg'
 import DraganaTrifunovic from '../Images/episodes/dragana_trifunovic.jpg'
 
@@ -81,8 +81,8 @@ const Episodes = () => {
       <Episode img={JelenaBrajevic} header="EP 35 | Au Pair USA: Kako sam preživela i zavolela Pittsburgh i Salt Lake City | Jelena Brajević"
           link="https://www.youtube.com/watch?v=rMyUCZjcJiY" />
 
-      {/* <Episode img={ZlatijaRakic} header="EP 34 | Work & Travel Iskustvo koje iz Amerike doneseš kući nema cenu | Zlatija Rakić"
-          link="https://www.youtube.com/watch?v=wMOLHrXKa0s" /> */}
+      <Episode img={ZlatijaRakic} header="EP 34 | Work & Travel Iskustvo koje iz Amerike doneseš kući nema cenu | Zlatija Rakić"
+          link="https://www.youtube.com/watch?v=wMOLHrXKa0s" />
 
       <Episode img={BojanaCoso} header="EP 33 | Letnja avantura: Od rada na Block Islandu do čarolije Njujorka | Bojana Ćoso"
           link="https://www.youtube.com/watch?v=EKnlg48ugOs" />
