@@ -53,7 +53,7 @@ import MihajloPantic from '../Images/episodes/mihajlo_pantic.jpg'
 import BojanaCoso from '../Images/episodes/bojana_coso.jpg'
 import ZlatijaRakic from '../Images/episodes/zlatija_rakic.webp'
 import JelenaBrajevic from '../Images/episodes/jelena_brajevic.jpg'
-import DraganaTrifunovic from '../Images/episodes/dragana_trifunovic.jpg'
+import DraganaTrifunovic from '../Images/episodes/dragana_trifunovic.webp'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
