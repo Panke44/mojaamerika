@@ -54,6 +54,7 @@ import BojanaCoso from '../Images/episodes/bojana_coso.jpg'
 import ZlatijaRakic from '../Images/episodes/zlatija_rakic.webp'
 import JelenaBrajevic from '../Images/episodes/jelena_brajevic.jpg'
 import DraganaTrifunovic from '../Images/episodes/dragana_trifunovic.webp'
+import MilaMejic from '../Images/episodes/mila_mejic.jpg'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -73,6 +74,9 @@ const Episodes = () => {
       <div class="wrapper-episodes">
       {/* <Episode img={} header=""
           link="" /> */}
+
+      <Episode img={MilaMejic} header="EP 37 | Živim svoj Američki san i ne bih ga menjala ni za šta | Mila Mejić"
+          link="https://www.youtube.com/watch?v=rn5EVK28W94" />
 
 
       <Episode img={DraganaTrifunovic} header="EP 36 | Work and Travel: Od mirnog Cape Coda do uragana u Majamiju | Dragana Trifunović"
