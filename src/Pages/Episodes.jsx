@@ -55,6 +55,7 @@ import ZlatijaRakic from '../Images/episodes/zlatija_rakic.webp'
 import JelenaBrajevic from '../Images/episodes/jelena_brajevic.jpg'
 import DraganaTrifunovic from '../Images/episodes/dragana_trifunovic.webp'
 import MilaMejic from '../Images/episodes/mila_mejic.jpg'
+import AleksandarStamenkovic from '../Images/episodes/aleksandar_stamenkovic.jpg'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -75,9 +76,11 @@ const Episodes = () => {
       {/* <Episode img={} header=""
           link="" /> */}
 
+      <Episode img={AleksandarStamenkovic} header="EP 38 | Od Niša do New Yorka: Američki san personalnog trenera | Aleksandar Stamenković"
+          link="https://www.youtube.com/watch?v=F24pYA4MIA0" />
+
       <Episode img={MilaMejic} header="EP 37 | Živim svoj Američki san i ne bih ga menjala ni za šta | Mila Mejić"
           link="https://www.youtube.com/watch?v=rn5EVK28W94" />
-
 
       <Episode img={DraganaTrifunovic} header="EP 36 | Work and Travel: Od mirnog Cape Coda do uragana u Majamiju | Dragana Trifunović"
           link="https://www.youtube.com/watch?v=zMqH_r3s4MY" />
