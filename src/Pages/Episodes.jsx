@@ -56,6 +56,7 @@ import JelenaBrajevic from '../Images/episodes/jelena_brajevic.jpg'
 import DraganaTrifunovic from '../Images/episodes/dragana_trifunovic.webp'
 import MilaMejic from '../Images/episodes/mila_mejic.jpg'
 import AleksandarStamenkovic from '../Images/episodes/aleksandar_stamenkovic.jpg'
+import MionaIlic from '../Images/episodes/miona_ilic.webp'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -75,6 +76,9 @@ const Episodes = () => {
       <div class="wrapper-episodes">
       {/* <Episode img={} header=""
           link="" /> */}
+
+      <Episode img={MionaIlic} header="EP 39 | Sunce, plaža i društvo: Nezaboravno leto u Americi | Miona Ilić"
+          link="https://www.youtube.com/watch?v=KPjHe4sHjs8" />
 
       <Episode img={AleksandarStamenkovic} header="EP 38 | Od Niša do New Yorka: Američki san personalnog trenera | Aleksandar Stamenković"
           link="https://www.youtube.com/watch?v=F24pYA4MIA0" />
