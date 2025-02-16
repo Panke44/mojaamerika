@@ -57,6 +57,7 @@ import DraganaTrifunovic from '../Images/episodes/dragana_trifunovic.webp'
 import MilaMejic from '../Images/episodes/mila_mejic.jpg'
 import AleksandarStamenkovic from '../Images/episodes/aleksandar_stamenkovic.jpg'
 import MionaIlic from '../Images/episodes/miona_ilic.webp'
+import AtilaFeher from '../Images/episodes/atila_feher.webp'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -76,6 +77,9 @@ const Episodes = () => {
       <div class="wrapper-episodes">
       {/* <Episode img={} header=""
           link="" /> */}
+
+          <Episode img={AtilaFeher} header="EP 40 | Leto koje menja život: Work & Travel na Martinim Vinogradima | Atila Feher"
+          link="https://www.youtube.com/watch?v=NtmyVEcCKlo" />
 
       <Episode img={MionaIlic} header="EP 39 | Sunce, plaža i društvo: Nezaboravno leto u Americi | Miona Ilić"
           link="https://www.youtube.com/watch?v=KPjHe4sHjs8" />
