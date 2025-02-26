@@ -42,7 +42,7 @@ import YouTube from '../Images/Applications/youtube.png';
 const Home = () => {
   useEffect(() => {
     document.title = "Moja Amerika Podcast - Život u Americi";
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1000, once: true });
   })
   return (
     <>
@@ -138,9 +138,6 @@ const Home = () => {
         </div>
         <div className="about__content">
 
-          {/* <div className="about-button">
-            <WhiteBtn btnText="Autor" />
-          </div> */}
           <h2 data-aos="fade-up">Miloš Panić</h2>
           <p data-aos="fade-up" data-aos-delay="200">
             Osnivač "Moja Amerika Podcasta", inženjer informacionih tehnologija
@@ -167,16 +164,16 @@ const Home = () => {
 
           <Testimonial name="Bojana O’Donnell" review="
           Svakom podkastu se jako radujem i svako iskustvo me vrati u studentske dane i shvatim koliko bih bila bolje pripremljena za odlazak na W&T da je ovako nešto postojalo pre desetak godina. Sve najbolje u daljem radu!"
-            img={Bojana} occupation="Brentwood, NH, USA" alt="Slika Bojane O'Donnell" />
+            img={Bojana} occupation="Brentwood, NH, USA" alt="Slika Bojane O'Donnell" aos="fade-up" delay="100" />
 
           <Testimonial name="Charles Cather" review="I had the honor of joking Milos on Moja Amerika a few months ago. I love the passion, detailed info and non filtered commentary that this podcast puts out for future work and travel students! Great job on fantastic podcast!"
-            img={CharlesCather} occupation="Novi Sad, Srbija" alt="Charles Cather in front of Serbian flag on the wall" />
+            img={CharlesCather} occupation="Novi Sad, Srbija" alt="Charles Cather in front of Serbian flag on the wall" aos="fade-up" delay="200" />
 
           <Testimonial name="Anja Mihajlović" review="Prozor koji pruža pogled u realnost življenja ''Američkog sna'', kroz zanimljive anegdote, ukazuje na kulturne razlike, koliko je zapravo izazovno mladima sa prostora Balkana živjeti i raditi izvan istog. Svaka epizoda je autentična i otvara vidike i baca vas u razmišljanje."
-            img={Anja} occupation="Podgorica, Crna Gora" alt="Slika Anje Mihajlović" />
+            img={Anja} occupation="Podgorica, Crna Gora" alt="Slika Anje Mihajlović" aos="fade-up" delay="300"/>
 
           <Testimonial name="Laura Kruljac" review="Snažan prikaz uspjeha i izazova naših ljudi u Americi. Iskreni razgovori o osobnim iskustvima pružaju vrijednu  perspektivu o tome kako mladi traže balans i svoje mjesto u modernom društvu."
-            img={Laura} occupation="Zagreb, Hrvatska" alt="Laura Kruljac na Bruklin mostu u Njujorku" />
+            img={Laura} occupation="Zagreb, Hrvatska" alt="Laura Kruljac na Bruklin mostu u Njujorku" aos="fade-up" delay="400" />
         </div>
       </div >
 

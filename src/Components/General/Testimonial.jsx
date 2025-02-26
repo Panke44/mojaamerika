@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonial = (props) => {
     return (
-        <div class="review-card">
+        <div class="review-card" data-aos={props.aos} data-aos-delay={props.delay}>
             <div class="header-content">
                 <div class="img-area">
                     <img alt={props.alt} src={props.img} />
