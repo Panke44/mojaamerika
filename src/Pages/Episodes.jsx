@@ -58,6 +58,7 @@ import MilaMejic from '../Images/episodes/mila_mejic.jpg'
 import AleksandarStamenkovic from '../Images/episodes/aleksandar_stamenkovic.jpg'
 import MionaIlic from '../Images/episodes/miona_ilic.webp'
 import AtilaFeher from '../Images/episodes/atila_feher.webp'
+import TatjanaNikolic from '../Images/episodes/tatjana_nikolic.webp'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -75,37 +76,40 @@ const Episodes = () => {
       <MobileNavbar />
 
       <div class="wrapper-episodes">
-      {/* <Episode img={} header=""
+        {/* <Episode img={} header=""
           link="" /> */}
 
-          <Episode img={AtilaFeher} header="EP 40 | Leto koje menja život: Work & Travel na Martinim Vinogradima | Atila Feher"
+        <Episode img={TatjanaNikolic} header="EP 41 | 11 godina u Americi: Od AU Pair-a do američkog pasoša - i nazad u Srbiju | Tanja Nikolić"
+          link="https://www.youtube.com/watch?v=uudr_vfD6H8" />
+
+        <Episode img={AtilaFeher} header="EP 40 | Leto koje menja život: Work & Travel na Martinim Vinogradima | Atila Feher"
           link="https://www.youtube.com/watch?v=NtmyVEcCKlo" />
 
-      <Episode img={MionaIlic} header="EP 39 | Sunce, plaža i društvo: Nezaboravno leto u Americi | Miona Ilić"
+        <Episode img={MionaIlic} header="EP 39 | Sunce, plaža i društvo: Nezaboravno leto u Americi | Miona Ilić"
           link="https://www.youtube.com/watch?v=KPjHe4sHjs8" />
 
-      <Episode img={AleksandarStamenkovic} header="EP 38 | Od Niša do New Yorka: Američki san personalnog trenera | Aleksandar Stamenković"
+        <Episode img={AleksandarStamenkovic} header="EP 38 | Od Niša do New Yorka: Američki san personalnog trenera | Aleksandar Stamenković"
           link="https://www.youtube.com/watch?v=F24pYA4MIA0" />
 
-      <Episode img={MilaMejic} header="EP 37 | Živim svoj Američki san i ne bih ga menjala ni za šta | Mila Mejić"
+        <Episode img={MilaMejic} header="EP 37 | Živim svoj Američki san i ne bih ga menjala ni za šta | Mila Mejić"
           link="https://www.youtube.com/watch?v=rn5EVK28W94" />
 
-      <Episode img={DraganaTrifunovic} header="EP 36 | Work and Travel: Od mirnog Cape Coda do uragana u Majamiju | Dragana Trifunović"
+        <Episode img={DraganaTrifunovic} header="EP 36 | Work and Travel: Od mirnog Cape Coda do uragana u Majamiju | Dragana Trifunović"
           link="https://www.youtube.com/watch?v=zMqH_r3s4MY" />
 
-      <Episode img={JelenaBrajevic} header="EP 35 | Au Pair USA: Kako sam preživela i zavolela Pittsburgh i Salt Lake City | Jelena Brajević"
+        <Episode img={JelenaBrajevic} header="EP 35 | Au Pair USA: Kako sam preživela i zavolela Pittsburgh i Salt Lake City | Jelena Brajević"
           link="https://www.youtube.com/watch?v=rMyUCZjcJiY" />
 
-      <Episode img={ZlatijaRakic} header="EP 34 | Work & Travel Iskustvo koje iz Amerike doneseš kući nema cenu | Zlatija Rakić"
+        <Episode img={ZlatijaRakic} header="EP 34 | Work & Travel Iskustvo koje iz Amerike doneseš kući nema cenu | Zlatija Rakić"
           link="https://www.youtube.com/watch?v=wMOLHrXKa0s" />
 
-      <Episode img={BojanaCoso} header="EP 33 | Letnja avantura: Od rada na Block Islandu do čarolije Njujorka | Bojana Ćoso"
+        <Episode img={BojanaCoso} header="EP 33 | Letnja avantura: Od rada na Block Islandu do čarolije Njujorka | Bojana Ćoso"
           link="https://www.youtube.com/watch?v=EKnlg48ugOs" />
 
-      <Episode img={MihajloPantic} header="EP 32 | Od Istočne do Zapadne obale: Work and Travel odiseja kroz SAD | Mihajlo Pantić"
+        <Episode img={MihajloPantic} header="EP 32 | Od Istočne do Zapadne obale: Work and Travel odiseja kroz SAD | Mihajlo Pantić"
           link="https://www.youtube.com/watch?v=_6oXf8TWCI8" />
 
-      <Episode img={MilosTodosijevic} header="EP 31 | Američki San: Školovanje u SAD-u od Srednje Škole do Koledža | Miloš Todosijević"
+        <Episode img={MilosTodosijevic} header="EP 31 | Američki San: Školovanje u SAD-u od Srednje Škole do Koledža | Miloš Todosijević"
           link="https://www.youtube.com/watch?v=d9kFGBmTbfY" />
 
         <Episode img={SanjaSimunovic} header="EP 30 | Na Nantucketu ima više milijardera nego milionera | Sanja Simunović"
