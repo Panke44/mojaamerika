@@ -59,6 +59,8 @@ import AleksandarStamenkovic from '../Images/episodes/aleksandar_stamenkovic.jpg
 import MionaIlic from '../Images/episodes/miona_ilic.webp'
 import AtilaFeher from '../Images/episodes/atila_feher.webp'
 import TatjanaNikolic from '../Images/episodes/tatjana_nikolic.webp'
+import NikolaUcur from '../Images/episodes/nikola_ucur.webp'
+import MilanIlic from '../Images/episodes/milan_ilic.webp'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -78,6 +80,12 @@ const Episodes = () => {
       <div class="wrapper-episodes">
         {/* <Episode img={} header=""
           link="" /> */}
+
+        <Episode img={MilanIlic} header="EP 43 | Work & Travel Aljaska: Letnja Američka avantura na kraju sveta | Milan Ilić"
+          link="https://www.youtube.com/watch?v=7aX4tXjqZd4" />
+
+         <Episode img={NikolaUcur} header="EP 42 | Work and Travel: Od sezonskih radnika do fudbalskih šampiona Block Islanda | Nikola Učur"
+          link="https://www.youtube.com/watch?v=pZSuKLBrJQ8" /> 
 
         <Episode img={TatjanaNikolic} header="EP 41 | 11 godina u Americi: Od AU Pair-a do američkog pasoša - i nazad u Srbiju | Tanja Nikolić"
           link="https://www.youtube.com/watch?v=uudr_vfD6H8" />
