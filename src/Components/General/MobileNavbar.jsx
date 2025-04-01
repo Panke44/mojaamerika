@@ -9,7 +9,7 @@ const MobileNavbar = () => {
 
         <nav class="navbar navbar-light bg-white position-static navbar-mobile">
             <div class="container-fluid">
-            <Link to="/"> <img src={logo2} className='mobile-navbar-img' alt="CHI Repair & Wash Inc orange/gray Logo" /> </Link>
+            <Link to="/"> <img src={logo2} className='mobile-navbar-img' alt="Moja Amerika Podcast Logo" /> </Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>

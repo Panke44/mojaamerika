@@ -61,6 +61,8 @@ import AtilaFeher from '../Images/episodes/atila_feher.webp'
 import TatjanaNikolic from '../Images/episodes/tatjana_nikolic.webp'
 import NikolaUcur from '../Images/episodes/nikola_ucur.webp'
 import MilanIlic from '../Images/episodes/milan_ilic.webp'
+import MatijaGrujic from '../Images/episodes/matija_grujic.webp'
+import AndjelaNestorovic from '../Images/episodes/andjela_nestorovic.webp'
 
 // ANIMATION ON SCROLL
 import AOS from 'aos'
@@ -81,11 +83,17 @@ const Episodes = () => {
         {/* <Episode img={} header=""
           link="" /> */}
 
+        * <Episode img={AndjelaNestorovic} header="EP 45 | Work & Travel: Sunce, posao i dva nezaboravna leta na Cape Codu | Anđela Nestorović"
+          link="https://www.youtube.com/watch?v=oeoqtaF6Yyg" /> *
+
+        * <Episode img={MatijaGrujic} header="EP 44 | Work and Travel: Od Aljaske do Jute - Američki san sa dva lica | Matija Grujić"
+          link="https://www.youtube.com/watch?v=jyYQ_TCST9U" /> *
+
         <Episode img={MilanIlic} header="EP 43 | Work & Travel Aljaska: Letnja Američka avantura na kraju sveta | Milan Ilić"
           link="https://www.youtube.com/watch?v=7aX4tXjqZd4" />
 
-         <Episode img={NikolaUcur} header="EP 42 | Work and Travel: Od sezonskih radnika do fudbalskih šampiona Block Islanda | Nikola Učur"
-          link="https://www.youtube.com/watch?v=pZSuKLBrJQ8" /> 
+        <Episode img={NikolaUcur} header="EP 42 | Work and Travel: Od sezonskih radnika do fudbalskih šampiona Block Islanda | Nikola Učur"
+          link="https://www.youtube.com/watch?v=pZSuKLBrJQ8" />
 
         <Episode img={TatjanaNikolic} header="EP 41 | 11 godina u Americi: Od AU Pair-a do američkog pasoša - i nazad u Srbiju | Tanja Nikolić"
           link="https://www.youtube.com/watch?v=uudr_vfD6H8" />
