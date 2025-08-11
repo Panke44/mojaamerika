@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { memo } from 'react';
+import PropTypes from 'prop-types';
 
-const CardHolder = (props) => {
-
+const CardHolder = ({ children }) => {
   return (
     <div className='card_holder'>
-        {props.children}
+        {children}
     </div>
   )
-}
+};
 
-export default CardHolder
+CardHolder.propTypes = {
+  children: PropTypes.node.isRequired
+};
+
+export default memo(CardHolder);

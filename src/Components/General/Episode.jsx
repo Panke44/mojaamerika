@@ -1,22 +1,30 @@
-import React from 'react'
-import OrangeBtn from './OrangeBtn'
+import React, { memo } from 'react';
+import PropTypes from 'prop-types';
+import OrangeBtn from './OrangeBtn';
 
-const Episode = (props) => {
+const Episode = ({ img, alt, header, link }) => {
     return (
-        <div class="episode-card">
-            <div class="episode-img">
-                <img alt={props.alt} src={props.img} />
+        <div className="episode-card">
+            <div className="episode-img">
+                <img alt={alt} src={img} loading="lazy" />
             </div>
 
-            <div class="episode-header">
-                <h4>{props.header}</h4>
+            <div className="episode-header">
+                <h3>{header}</h3>
             </div>
 
             <div className="center-button">
-                <OrangeBtn btnText="Pogledaj" btnLink={props.link} target="_blank" rel="noopener"></OrangeBtn>
+                <OrangeBtn btnText="Pogledaj" btnLink={link} target="_blank" rel="noopener" />
             </div>
         </div>
     )
-}
+};
 
-export default Episode
+Episode.propTypes = {
+    img: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
+    header: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired
+};
+
+export default memo(Episode);

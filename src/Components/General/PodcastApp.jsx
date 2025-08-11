@@ -1,18 +1,25 @@
-import React from 'react'
+import React, { memo } from 'react';
+import PropTypes from 'prop-types';
 
-const PodcastApp = (props) => {
+const PodcastApp = ({ appimg, appname, appalt }) => {
     return (
-        <div class="podcast-app-card">
-            <div class="podcast-app-header-content">
-                <div class="podcast-app-img-area">
-                    <img alt={props.appalt} src={props.appimg} />
+        <div className="podcast-app-card">
+            <div className="podcast-app-header-content">
+                <div className="podcast-app-img-area">
+                    <img alt={appalt} src={appimg} loading="lazy" />
                 </div>
-                <div class="podcast-app-info">
-                    <h4>{props.appname}</h4>
+                <div className="podcast-app-info">
+                    <h4>{appname}</h4>
                 </div>
             </div>
         </div>
     )
-}
+};
 
-export default PodcastApp
+PodcastApp.propTypes = {
+    appimg: PropTypes.string.isRequired,
+    appname: PropTypes.string.isRequired,
+    appalt: PropTypes.string.isRequired
+};
+
+export default memo(PodcastApp);

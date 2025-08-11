@@ -1,31 +1,42 @@
-import React from 'react'
+import React, { memo } from 'react';
+import PropTypes from 'prop-types';
 
-const Testimonial = (props) => {
+const Testimonial = ({ name, review, img, occupation, alt, aos, delay }) => {
     return (
-        <div class="review-card" data-aos={props.aos} data-aos-delay={props.delay}>
-            <div class="header-content">
-                <div class="img-area">
-                    <img alt={props.alt} src={props.img} />
+        <div className="review-card" data-aos={aos} data-aos-delay={delay}>
+            <div className="header-content">
+                <div className="img-area">
+                    <img alt={alt} src={img} loading="lazy" />
                 </div>
-                <div class="info">
-                    <h4>{props.name}</h4>
-                    <p>{props.occupation}</p>
+                <div className="info">
+                    <h4>{name}</h4>
+                    <p>{occupation}</p>
                 </div>
             </div>
-            <div class="single-review">
-                <p> {props.review} </p>
+            <div className="single-review">
+                <p> {review} </p>
             </div>
-            <div class="review-footer">
-                <div class="rating">
-                    <span class="active">★</span>
-                    <span class="active">★</span>
-                    <span class="active">★</span>
-                    <span class="active">★</span>
-                    <span class="active">★</span>
+            <div className="review-footer">
+                <div className="rating" role="img" aria-label="5 out of 5 stars">
+                    <span className="active">★</span>
+                    <span className="active">★</span>
+                    <span className="active">★</span>
+                    <span className="active">★</span>
+                    <span className="active">★</span>
                 </div>
             </div>
         </div>
     )
-}
+};
 
-export default Testimonial
+Testimonial.propTypes = {
+    name: PropTypes.string.isRequired,
+    review: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    occupation: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
+    alt: PropTypes.string.isRequired,
+    aos: PropTypes.string,
+    delay: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+};
+
+export default memo(Testimonial);

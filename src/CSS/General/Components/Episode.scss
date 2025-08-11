@@ -1,23 +1,15 @@
 .wrapper-episodes{
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 20px;
-	padding: 20px 0px;
+    @include center-content;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0px;
 }
 .episode-card {
-	background-color: white;
-	border-radius: 10px;
-	width: 500px;
+    @include card;
+    width: 500px;
+    height: 460px;
     height: auto;
     padding-bottom: 15px;
-	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-    transition: 0.3s ease;
-
-    &:hover{
-        transform: translateY(-10px);
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    }
 }
 
 .episode-img {
@@ -36,18 +28,18 @@
 }
 
 .episode-header{
-	h4{
+	h3{
 		color: black;
-		font-size: 18px;
+		font-size: 19px;
         padding: 20px;
 		margin: 0px;
+        line-height: 1.4;
+        font-weight: 400;
 	}
 }
 
 .center-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include center-content;
     margin: auto;
     width: 100%;
 }
@@ -67,8 +59,8 @@
             transform:none;
         }
 
-        h4{
-            font-size: 16px;
+        h3{
+            font-size: 17px;
         }
     }
 

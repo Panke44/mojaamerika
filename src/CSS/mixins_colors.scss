@@ -1,6 +1,4 @@
-// $black: #21649e;
 $black: #016ACE;
-
 $orange: #FD7D23;
 $gray: #D3D3D3;
 $blue: #4AAFF6;
@@ -23,6 +21,40 @@ $yellow: #FFBA01;
 
 @mixin shadow {
     box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.1);
+}
+
+@mixin card-shadow {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+@mixin hover-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@mixin soft-shadow {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+@mixin orange-glow {
+    box-shadow: rgba(253, 125, 35, 0.5) 0px 2px 4px 0px, rgba(253, 125, 35, 0.5) 0px 2px 16px 0px;
+}
+
+@mixin card {
+    background-color: white;
+    border-radius: 10px;
+    @include card-shadow;
+    transition: 0.3s ease;
+    
+    &:hover {
+        transform: translateY(-10px);
+        @include hover-shadow;
+    }
+}
+
+@mixin center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @mixin relative ($position) {

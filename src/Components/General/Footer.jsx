@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react';
 import logo from '../../Images/logo.png'
 import WATiskustva from '../../Images/watiskustva_logo.png'
 
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-item col-xl-3 col-lg-4 col-md-4">
           <h3> Projekti </h3>
           <img src={logo} alt="Moja Amerika Podcast logo" />
-          <a href="https://watiskustva.com/" target="_blank" class="wat-iskustva-img" rel="noreferrer">
+          <a href="https://watiskustva.com/" target="_blank" className="wat-iskustva-img" rel="noreferrer">
             <img src={WATiskustva} alt="WAT Iskustva logo" />
           </a>
           
@@ -19,19 +19,19 @@ const Footer = () => {
           <h3> Društvene mreže </h3>
 
           <p>
-            <i class="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-instagram"></i>
             <a href='https://www.instagram.com/moja.amerika/' target="_blank" rel="noreferrer">
               Instagram @moja.amerika
             </a></p>
 
           <p>
-            <i class="fa-brands fa-tiktok"></i>
+            <i className="fa-brands fa-tiktok"></i>
             <a href='https://www.tiktok.com/@moja.amerika' target="_blank" rel="noreferrer">
               TikTok: @moja.amerika
             </a></p>
 
           <p>
-            <i class="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-facebook"></i>
             <a href='https://www.facebook.com/moja.amerika1/' target="_blank" rel="noreferrer">
               Facebook: @moja.amerika1
             </a></p>
@@ -42,7 +42,7 @@ const Footer = () => {
           <h3> Kontakt </h3>
 
           <p>
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
             <a href='mailto:mojaamerika1@gmail.com'>
             mojaamerika1@gmail.com
             </a></p>
@@ -53,4 +53,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default memo(Footer);

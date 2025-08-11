@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { memo } from 'react';
+import PropTypes from 'prop-types';
 
-const WhiteBtn = (props) => {
+const WhiteBtn = ({ btnText }) => {
   return (
-        <button type='button' className='white_button'> {props.btnText} </button>
+        <button type='button' className='white_button' aria-label={btnText}> {btnText} </button>
   )
-}
+};
 
-export default WhiteBtn
+WhiteBtn.propTypes = {
+  btnText: PropTypes.string.isRequired
+};
+
+export default memo(WhiteBtn);

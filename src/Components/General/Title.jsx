@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { memo } from 'react';
+import PropTypes from 'prop-types';
 
-const Title = (props) => {
+const Title = ({ title }) => {
     return (
         <div className="title">
-            <h2> {props.title} </h2>
+            <h2> {title} </h2>
         </div>
     )
-}
+};
 
-export default Title
+Title.propTypes = {
+    title: PropTypes.string.isRequired
+};
+
+export default memo(Title);
