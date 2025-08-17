@@ -38,7 +38,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="footer-item col-xl-3 col-lg-4 col-md-4">
+        {/* <div className="footer-item col-xl-3 col-lg-4 col-md-4">
           <h3> Kontakt </h3>
 
           <p>
@@ -47,7 +47,7 @@ const Footer = () => {
             mojaamerika1@gmail.com
             </a></p>
 
-        </div>
+        </div> */}
       </div>
     </div>
   )
